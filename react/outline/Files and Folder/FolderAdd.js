@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function FolderAdd({ size, title, titleId, ...props }, svgRef) {
+function FolderRemove({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -24,5 +24,5 @@ function FolderAdd({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-const ForwardRef = React.forwardRef(FolderAdd);
+const ForwardRef = React.forwardRef(FolderRemove);
 export default ForwardRef;
