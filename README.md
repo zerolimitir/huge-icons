@@ -3,9 +3,9 @@
 ![](cover.jpg)
 
 ![stars](https://img.shields.io/github/stars/zero-icons/huge-icons?color=gold&style=flat)
-![languages](https://img.shields.io/github/languages/top/zero-icons/huge-icons?color=blue&style=flat)
 ![fork](https://img.shields.io/github/forks/zero-icons/huge-icons?color=purple&style=flat)
-![watchers](https://img.shields.io/github/watchers/zero-icons/huge-icons?color=orange&style=flat)
+![License NPM](https://img.shields.io/npm/l/react-huge-icons?color=green&style=flat)
+![Version NPM](https://img.shields.io/npm/v/react-huge-icons?color=blue&style=flat)
 
 </div>
 
@@ -22,3 +22,5 @@ We are here to convert the Huge Icons package into a ReactJs package...
 - *[Mohmad Dorqi](https://github.com/mohmad-dorqi)*
 - *[Amirmahdi Shad](https://github.com/AmirMahdi-Shad)*
 - *[Peyman Naderi](https://github.com/peymanath)*
+
+https://www.npmjs.com/package/react-huge-icons

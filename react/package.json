@@ -1,14 +1,15 @@
 {
-	"name": "huge-icons",
+	"name": "react-huge-icons",
 	"license": "MIT",
-	"version": "0.0.9",
-	"description": "",
+	"version": "0.0.1",
+	"description": "A Huge Icons icon pack made by Zero-Icon team. Developing ...",
 	"keywords": [
 		"react",
-		"react icon",
-		"pack icon",
+		"react icons",
+		"icon pack",
 		"huge icon",
-		"zero icon"
+		"react-huge-icons",
+		"Zero-Icon"
 	],
 	"homepage": "https://github.com/zero-icons/huge-icons#readme",
 	"repository": {

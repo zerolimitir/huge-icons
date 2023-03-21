@@ -9,7 +9,7 @@ export default new Proxy(
 			}
 
 			throw new Error(
-				`Importing from \`huge-icons/react\` directly is not supported. Please import from either \`huge-icons/react/solid/\`, or \`huge-icons/react/outline/\` instead.`,
+				`Importing from \`react-huge-icons\` directly is not supported. Please import from either \`react-huge-icons/solid\`, or \`react-huge-icons/outline/\` instead.`,
 			);
 		},
 	},
