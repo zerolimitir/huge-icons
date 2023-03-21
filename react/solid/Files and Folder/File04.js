@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function FileFour({ size, title, titleId, ...props }, svgRef) {
+function File04({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -26,5 +26,5 @@ function FileFour({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-const ForwardRef = React.forwardRef(FileFour);
+const ForwardRef = React.forwardRef(File04);
 export default ForwardRef;
