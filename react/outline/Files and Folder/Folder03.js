@@ -2,7 +2,6 @@ import * as React from "react";
 
 function Folder03({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
-
 		"svg",
 		Object.assign(
 			{
