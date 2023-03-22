@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function Store({ size, title, titleId, ...props }, svgRef) {
+function Store01({ size, title, titleId, ...props }, svgRef) {
   return /*#__PURE__*/ React.createElement(
     "svg",
     Object.assign(
@@ -36,11 +36,11 @@ function Store({ size, title, titleId, ...props }, svgRef) {
       strokeLinejoin: "round",
     }),
     /*#__PURE__*/ React.createElement("path", {
-      d: "M9 17C11.3561 18.3404 12.6476 18.3263 15 17",
+      d: "M9 19C9 17.3431 10.3431 16 12 16C13.6569 16 15 17.3431 15 19V22H9V19Z",
       strokeLinecap: "round",
       strokeLinejoin: "round",
     })
   );
 }
 
-export default React.forwardRef(Store);
+export default React.forwardRef(Store01);
