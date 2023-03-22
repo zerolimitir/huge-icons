@@ -12,6 +12,7 @@ function FolderMinus02({ size, title, titleId, ...props }, svgRef) {
 				fill: "none",
 				stroke: "currentColor",
 				"stroke-width": "1.5",
+				"stroke-linecap": "round",
 				"stroke-linejoin": "round",
 				"aria-hidden": "true",
 				ref: svgRef,
