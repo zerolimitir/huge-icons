@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function File01({ size, title, titleId, ...props }, svgRef) {
+function FileWriteBig({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -22,9 +22,9 @@ function File01({ size, title, titleId, ...props }, svgRef) {
 		),
 		title ? /*#__PURE__*/ React.createElement("title", { id: titleId }, title) : null,
 		/*#__PURE__*/ React.createElement("path", {
-			d: "M7 22C8.86748 22 10.4361 20.7202 10.8766 18.9899C11.0128 18.4547 11.4477 18 12 18H19M7 22C4.79086 22 3 20.2091 3 18V5C3 3.34315 4.34315 2 6 2H16C17.6569 2 19 3.34315 19 5V18M7 22H19C20.8675 22 22.4361 20.7202 22.8766 18.9899C23.0128 18.4547 22.5523 18 22 18H19M15 7H7M11 12H7",
+			d: "M20 22H5C3.34315 22 2 20.6569 2 19V5C2 3.34315 3.34315 2 5 2H15C16.6569 2 18 3.34315 18 5V8M20 22C18.8954 22 18 21.1046 18 20V8M20 22C21.1046 22 22 21.1046 22 20V10C22 8.89543 21.1046 8 20 8H18M6 7H14M6 12H14M6 17H10",
 		}),
 	);
 }
 
-export default React.forwardRef(File01);
+export default React.forwardRef(FileWriteBig);

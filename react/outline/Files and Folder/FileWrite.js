@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function File03({ size, title, titleId, ...props }, svgRef) {
+function FileWrite({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -24,4 +24,4 @@ function File03({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-export default React.forwardRef(File03);
+export default React.forwardRef(FileWrite);

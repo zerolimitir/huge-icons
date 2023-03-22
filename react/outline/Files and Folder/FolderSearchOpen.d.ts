@@ -1,3 +1,3 @@
 import * as React from 'react';
-declare const FolderSearch02: React.ForwardRefExoticComponent<React.SVGProps<SVGSVGElement> & { size?: string, title?: string, titleId?: string }>;
-export default FolderSearch02;
+declare const FolderSearchOpen: React.ForwardRefExoticComponent<React.SVGProps<SVGSVGElement> & { size?: string, title?: string, titleId?: string }>;
+export default FolderSearchOpen;

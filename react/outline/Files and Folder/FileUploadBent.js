@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function FileUpload({ size, title, titleId, ...props }, svgRef) {
+function FileUploadBent({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -27,4 +27,4 @@ function FileUpload({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-export default React.forwardRef(FileUpload);
+export default React.forwardRef(FileUploadBent);

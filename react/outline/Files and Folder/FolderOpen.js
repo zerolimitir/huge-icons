@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function Folder01({ size, title, titleId, ...props }, svgRef) {
+function FolderOpen({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -30,4 +30,4 @@ function Folder01({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-export default React.forwardRef(Folder01);
+export default React.forwardRef(FolderOpen);

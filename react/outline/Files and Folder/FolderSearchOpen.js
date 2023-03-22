@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function FolderSearch02({ size, title, titleId, ...props }, svgRef) {
+function FolderSearchOpen({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -27,4 +27,4 @@ function FolderSearch02({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-export default React.forwardRef(FolderSearch02);
+export default React.forwardRef(FolderSearchOpen);

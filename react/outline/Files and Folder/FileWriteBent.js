@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function File04({ size, title, titleId, ...props }, svgRef) {
+function FileWriteBent({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -12,6 +12,7 @@ function File04({ size, title, titleId, ...props }, svgRef) {
 				fill: "none",
 				stroke: "currentColor",
 				"stroke-width": "1.5",
+				"stroke-linecap": "round",
 				"stroke-linejoin": "round",
 				"aria-hidden": "true",
 				ref: svgRef,
@@ -21,9 +22,9 @@ function File04({ size, title, titleId, ...props }, svgRef) {
 		),
 		title ? /*#__PURE__*/ React.createElement("title", { id: titleId }, title) : null,
 		/*#__PURE__*/ React.createElement("path", {
-			d: "M13 22L13 18C13 15.7909 14.7909 14 17 14L21 14M3 18L3 6C3 3.79086 4.79086 2 7 2L17 2C19.2091 2 21 3.79086 21 6V12.3431C21 13.404 20.5786 14.4214 19.8284 15.1716L14.1716 20.8284C13.4214 21.5786 12.404 22 11.3431 22H7C4.79086 22 3 20.2091 3 18Z",
+			d: "M7 22C8.86748 22 10.4361 20.7202 10.8766 18.9899C11.0128 18.4547 11.4477 18 12 18H19M7 22C4.79086 22 3 20.2091 3 18V5C3 3.34315 4.34315 2 6 2H16C17.6569 2 19 3.34315 19 5V18M7 22H19C20.8675 22 22.4361 20.7202 22.8766 18.9899C23.0128 18.4547 22.5523 18 22 18H19M15 7H7M11 12H7",
 		}),
 	);
 }
 
-export default React.forwardRef(File04);
+export default React.forwardRef(FileWriteBent);

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function FolderUpload02({ size, title, titleId, ...props }, svgRef) {
+function FolderUploadOpen({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -27,4 +27,4 @@ function FolderUpload02({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-export default React.forwardRef(FolderUpload02);
+export default React.forwardRef(FolderUploadOpen);

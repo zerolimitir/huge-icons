@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function FolderFavourite02({ size, title, titleId, ...props }, svgRef) {
+function FolderFavouriteOpen({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -33,4 +33,4 @@ function FolderFavourite02({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-export default React.forwardRef(FolderFavourite02);
+export default React.forwardRef(FolderFavouriteOpen);
