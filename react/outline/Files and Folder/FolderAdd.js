@@ -24,5 +24,4 @@ function FolderRemove({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-const ForwardRef = React.forwardRef(FolderRemove);
-export default ForwardRef;
+export default React.forwardRef(FolderRemove);

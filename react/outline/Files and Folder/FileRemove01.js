@@ -24,5 +24,4 @@ function FileRemove01({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-const ForwardRef = React.forwardRef(FileRemove01);
-export default ForwardRef;
+export default React.forwardRef(FileRemove01);

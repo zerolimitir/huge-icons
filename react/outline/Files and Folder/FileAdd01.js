@@ -24,5 +24,4 @@ function FileAdd01({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-const ForwardRef = React.forwardRef(FileAdd01);
-export default ForwardRef;
+export default React.forwardRef(FileAdd01);

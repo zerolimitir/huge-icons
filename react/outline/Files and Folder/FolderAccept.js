@@ -24,5 +24,4 @@ function FolderAccept({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-const ForwardRef = React.forwardRef(FolderAccept);
-export default ForwardRef;
+export default React.forwardRef(FolderAccept);

@@ -24,5 +24,4 @@ function FolderFavourite({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-const ForwardRef = React.forwardRef(FolderFavourite);
-export default ForwardRef;
+export default React.forwardRef(FolderFavourite);

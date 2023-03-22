@@ -24,5 +24,4 @@ function Folder03({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-const ForwardRef = React.forwardRef(Folder03);
-export default ForwardRef;
+export default React.forwardRef(Folder03);

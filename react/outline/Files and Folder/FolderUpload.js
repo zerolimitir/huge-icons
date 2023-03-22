@@ -24,5 +24,4 @@ function FolderUpload({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-const ForwardRef = React.forwardRef(FolderUpload);
-export default ForwardRef;
+export default React.forwardRef(FolderUpload);

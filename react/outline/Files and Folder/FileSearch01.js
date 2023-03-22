@@ -24,5 +24,4 @@ function FileSearch01({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-const ForwardRef = React.forwardRef(FileSearch01);
-export default ForwardRef;
+export default React.forwardRef(FileSearch01);

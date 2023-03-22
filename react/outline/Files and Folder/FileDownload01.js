@@ -24,5 +24,4 @@ function FileDownload01({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-const ForwardRef = React.forwardRef(FileDownload01);
-export default ForwardRef;
+export default React.forwardRef(FileDownload01);

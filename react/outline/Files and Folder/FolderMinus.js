@@ -24,5 +24,4 @@ function FolderMinus({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-const ForwardRef = React.forwardRef(FolderMinus);
-export default ForwardRef;
+export default React.forwardRef(FolderMinus);
