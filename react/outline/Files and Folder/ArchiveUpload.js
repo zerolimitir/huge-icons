@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function ArchiveUpload({ size, title, titleId, ...props }, svgRef) {
+function ArchiveDownload({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -24,4 +24,4 @@ function ArchiveUpload({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-export default React.forwardRef(ArchiveUpload);
+export default React.forwardRef(ArchiveDownload);
