@@ -17,7 +17,7 @@ export { default as FileAdd } from "./FileAdd";
 export { default as FileAddBent } from "./FileAddBent";
 export { default as FileDoc } from "./FileDoc";
 export { default as FileDownload } from "./FileDownload";
-export { default as FileDownload } from "./FileDownload";
+export { default as FileDownloadBent } from "./FileDownloadBent";
 export { default as FileFavourite } from "./FileFavourite";
 export { default as FileFavouriteBent } from "./FileFavouriteBent";
 export { default as FileJpg } from "./FileJpg";
