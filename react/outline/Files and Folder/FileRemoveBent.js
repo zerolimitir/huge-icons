@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function FileRemove01({ size, title, titleId, ...props }, svgRef) {
+function FileRemove({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -24,4 +24,4 @@ function FileRemove01({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-export default React.forwardRef(FileRemove01);
+export default React.forwardRef(FileRemove);
