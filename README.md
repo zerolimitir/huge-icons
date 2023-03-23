@@ -30,6 +30,8 @@ or
     
 ## Usage
 
+#### Outline Icons
+
 ```JSX
 import { Archive } from "react-huge-icons/outline";
 
@@ -43,6 +45,22 @@ function App() {
 
 export default App;
 ```
+#### Outline Icons
+
+```JSX
+import { Archive } from "react-huge-icons/solid";
+
+function App() {
+	return (
+		<div className="App">
+			<Archive />
+		</div>
+	);
+}
+
+export default App;
+```
+
 You can also pass inline props to the icon
 
 ```JSX
