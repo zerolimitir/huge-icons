@@ -16,7 +16,11 @@
 
 ## About the pack
 
-We are here to convert the Huge Icons package into a ReactJs package...
+We are here to convert the Huge Icons package into a ReactJs package.
+
+Completing soon ...
+
+developing ...
 
 ## Installation
 
