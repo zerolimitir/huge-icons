@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function Eye01({ size, title, titleId, ...props }, svgRef) {
+function EyeWithEyelash({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -37,5 +37,5 @@ function Eye01({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-export default React.forwardRef(Eye01);
+export default React.forwardRef(EyeWithEyelash);
 

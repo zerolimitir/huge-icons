@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function ClockRectangle1({ size, title, titleId, ...props }, svgRef) {
+function ClockCircleDouble({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -30,11 +30,11 @@ function ClockRectangle1({ size, title, titleId, ...props }, svgRef) {
 			  )
 			: null,
 		/*#__PURE__*/ React.createElement("path", {
-			 d:"M12 9V11.382C12 11.7607 12.214 12.107 12.5528 12.2764L14 13M6 22H18C20.2091 22 22 20.2091 22 18V6C22 3.79086 20.2091 2 18 2H6C3.79086 2 2 3.79086 2 6V18C2 20.2091 3.79086 22 6 22ZM7 19H17C18.1046 19 19 18.1046 19 17V7C19 5.89543 18.1046 5 17 5H7C5.89543 5 5 5.89543 5 7V17C5 18.1046 5.89543 19 7 19Z",
+			 d:"M12 9V11.382C12 11.7607 12.214 12.107 12.5528 12.2764L14 13M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 8.13401 8.13401 5 12 5C15.866 5 19 8.13401 19 12Z" ,
 			
 		}),
 	);
 }
 
-export default React.forwardRef(ClockRectangle1);
+export default React.forwardRef(ClockCircleDouble);
 
