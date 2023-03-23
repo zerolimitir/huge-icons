@@ -1,13 +1,14 @@
 {
 	"name": "react-huge-icons",
 	"license": "MIT",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "A Huge Icons icon pack made by Zero-Icon team. Developing ...",
 	"keywords": [
 		"react",
-		"react icons",
-		"icon pack",
-		"huge icon",
+		"react-icons",
+		"icons",
+		"svg",
+		"icon-pack",
 		"react-huge-icons",
 		"Zero-Icon"
 	],
