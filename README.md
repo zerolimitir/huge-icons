@@ -25,7 +25,9 @@ developing ...
 ## Installation
 
     npm i react-huge-icons
-
+or
+    yarn add react-huge-icons
+    
 ## Usage
 
 ```JSX
