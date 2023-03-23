@@ -54,6 +54,78 @@ You can also pass inline props to the icon
 |`title`                 |`string`                       |`empty`                  |
 |`titleId`               |`string`                       |`empty`                  |
 
+## List Icon
+
+#### File and Folder
+
+|Name                                |Outline |Solid   |
+|------------------------------------|--------|--------|
+|`size`                              |✅      |❎     |
+|`Archive`                           |✅      |❎     |
+|`ArchiveAdd`                        |✅      |❎     |
+|`ArchiveClear`                      |✅      |❎     |
+|`ArchiveDone`                       |✅      |❎     |
+|`ArchiveDownload`                   |✅      |❎     |
+|`ArchiveFavourite`                  |✅      |❎     |
+|`ArchiveRemove`                     |✅      |❎     |
+|`ArchiveSearch`                     |✅      |❎     |
+|`ArchiveUpload`                     |✅      |❎     |
+|`ArchiveWrite`                      |✅      |❎     |
+|`ArchiveWriteDouble`                |✅      |❎     |
+|`Attechment`                        |✅      |❎     |
+|`File`                              |✅      |❎     |
+|`FileAccept`                        |✅      |❎     |
+|`FileAcceptBent`                    |✅      |❎     |
+|`FileAdd`                           |✅      |❎     |
+|`FileAddBent`                       |✅      |❎     |
+|`FileDoc`                           |✅      |❎     |
+|`FileDownload`                      |✅      |❎     |
+|`FileDownloadBent`                  |✅      |❎     |
+|`FileFavourite`                     |✅      |❎     |
+|`FileFavouriteBent`                 |✅      |❎     |
+|`FileJpg`                           |✅      |❎     |
+|`FileMinus`                         |✅      |❎     |
+|`FileMinusBent`                     |✅      |❎     |
+|`FileMusic`                         |✅      |❎     |
+|`FilePdf`                           |✅      |❎     |
+|`FilePng`                           |✅      |❎     |
+|`FileReload`                        |✅      |❎     |
+|`FileRemove`                        |✅      |❎     |
+|`FileRemoveBent`                    |✅      |❎     |
+|`Files`                             |✅      |❎     |
+|`FileSearch`                        |✅      |❎     |
+|`FileSearchBent`                    |✅      |❎     |
+|`FileSharing`                       |✅      |❎     |
+|`FilesRevers`                       |✅      |❎     |
+|`FileUpload`                        |✅      |❎     |
+|`FileUploadBent`                    |✅      |❎     |
+|`FileVideo`                         |✅      |❎     |
+|`FileWrite`                         |✅      |❎     |
+|`FileWriteBent`                     |✅      |❎     |
+|`FileWriteBig`                      |✅      |❎     |
+|`Folder`                            |✅      |❎     |
+|`FolderAccept`                      |✅      |❎     |
+|`FolderAcceptOpen`                  |✅      |❎     |
+|`FolderAdd`                         |✅      |❎     |
+|`FolderAddOpen`                     |✅      |❎     |
+|`FolderDownload`                    |✅      |❎     |
+|`FolderDownloadOpen`                |✅      |❎     |
+|`FolderFavourite`                   |✅      |❎     |
+|`FolderFavouriteOpen`               |✅      |❎     |
+|`FolderMinus`                       |✅      |❎     |
+|`FolderMinusOpen`                   |✅      |❎     |
+|`FolderOpen`                        |✅      |❎     |
+|`FolderOpenCrooked`                 |✅      |❎     |
+|`FolderReload`                      |✅      |❎     |
+|`FolderRemove`                      |✅      |❎     |
+|`FolderRemoveOpen`                  |✅      |❎     |
+|`FolderSearch`                      |✅      |❎     |
+|`FolderSearchOpen`                  |✅      |❎     |
+|`FolderShare`                       |✅      |❎     |
+|`FolderStand`                       |✅      |❎     |
+|`FolderUpload`                      |✅      |❎     |
+|`FolderUploadOpen`                  |✅      |❎     |
+
 ## Contributors
 
 - *[Mohmad Dorqi](https://github.com/mohmad-dorqi)*
