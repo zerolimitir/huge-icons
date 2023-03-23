@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function mic({ size, title, titleId, ...props }, svgRef) {
+function Mic({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -37,5 +37,5 @@ function mic({ size, title, titleId, ...props }, svgRef) {
 	);
 }
 
-export default React.forwardRef(mic);
+export default React.forwardRef(Mic);
 
