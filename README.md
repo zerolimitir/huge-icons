@@ -3,11 +3,11 @@
 
 <div align="center">
 
+[![Version NPM](https://img.shields.io/npm/v/react-huge-icons?label=version&color=blue&style=flat)](https://www.npmjs.com/package/react-huge-icons)
+[![Downloads NPM](https://img.shields.io/npm/dw/react-huge-icons?label=downloads&nbsp;npm)](https://www.npmjs.com/package/react-huge-icons)
 ![stars](https://img.shields.io/github/stars/zero-icons/huge-icons?color=gold&style=flat)
-![fork](https://img.shields.io/github/forks/zero-icons/huge-icons?color=purple&style=flat)
 [![License NPM](https://img.shields.io/npm/l/react-huge-icons?color=green&style=flat)](https://www.npmjs.com/package/react-huge-icons)
-[![Version NPM](https://img.shields.io/npm/v/react-huge-icons?color=blue&style=flat)](https://www.npmjs.com/package/react-huge-icons)
-
+![fork](https://img.shields.io/github/forks/zero-icons/huge-icons?color=purple&style=flat)
 
 ![](cover.jpg)
 
