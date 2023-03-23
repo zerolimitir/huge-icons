@@ -126,7 +126,7 @@ You can also pass inline props to the icon
 |`FolderUpload`                      |✅      |❎     |
 |`FolderUploadOpen`                  |✅      |❎     |
 
-## Contributors
+## Publisher Package
 
 - *[Mohmad Dorqi](https://github.com/mohmad-dorqi)*
 - *[Amirmahdi Shad](https://github.com/AmirMahdi-Shad)*
