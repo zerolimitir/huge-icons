@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function CartCheck({ size, title, titleId, ...props }, svgRef) {
+function Bag({ size, title, titleId, ...props }, svgRef) {
   return /*#__PURE__*/ React.createElement(
     "svg",
     Object.assign(
@@ -28,22 +28,15 @@ function CartCheck({ size, title, titleId, ...props }, svgRef) {
         )
       : null,
     /*#__PURE__*/ React.createElement("path", {
-      d: "M11 20.5C11 21.3284 10.3284 22 9.5 22C8.67157 22 8 21.3284 8 20.5C8 19.6716 8.67157 19 9.5 19C10.3284 19 11 19.6716 11 20.5Z",
-    }),
-    /*#__PURE__*/ React.createElement("path", {
-      d: "M20 20.5C20 21.3284 19.3284 22 18.5 22C17.6716 22 17 21.3284 17 20.5C17 19.6716 17.6716 19 18.5 19C19.3284 19 20 19.6716 20 20.5Z",
-    }),
-    /*#__PURE__*/ React.createElement("path", {
-      d: "M11 11L12.7528 12.4023C13.1707 12.7366 13.7777 12.6826 14.1301 12.2799L17 9",
+      d: "M16 6C16 3.79086 14.2091 2 12 2C9.79086 2 8 3.79086 8 6",
       strokeLinejoin: "round",
       strokeLineCap: "round",
     }),
     /*#__PURE__*/ React.createElement("path", {
-      d: "M6 4H18C20.2091 4 22 5.79086 22 8V13C22 15.2091 20.2091 17 18 17H10C7.79086 17 6 15.2091 6 13V4ZM6 4C6 2.89543 5.10457 2 4 2H2",
+      d: "M4.56201 9.50386C4.81223 7.50215 6.51383 6 8.53112 6H15.4689C17.4862 6 19.1878 7.50215 19.438 9.50386L20.438 17.5039C20.7364 19.8913 18.8749 22 16.4689 22H7.53112C5.12513 22 3.26358 19.8913 3.56201 17.5039L4.56201 9.50386Z",
       strokeLinejoin: "round",
-      strokeLineCap: "round",
     })
   );
 }
 
-export default React.forwardRef(CartCheck);
+export default React.forwardRef(Bag);
