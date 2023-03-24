@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function Loading({ size, title, titleId, ...props }, svgRef) {
+function HomeClose({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -31,11 +31,11 @@ function Loading({ size, title, titleId, ...props }, svgRef) {
 			: null,
 		/*#__PURE__*/ React.createElement("path", {
 			 d:
-			 "M12 5V2M12 22V19M7.05028 7.05024L4.92896 4.92892M19.0711 19.0711L16.9498 16.9497M19 12H22M2 12H5M16.9497 7.05024L19.071 4.92892M4.92891 19.0711L7.05023 16.9497" 
+			 "M10 18H14M16.1804 22H7.81965C5.5109 22 3.6393 20.214 3.6393 18.0108V13.133C3.6393 12.4248 3.34447 11.7456 2.81969 11.2448C1.60381 10.0845 1.76187 8.16205 3.15251 7.19692L9.54124 2.763C11.0071 1.74567 12.9929 1.74567 14.4588 2.763L20.8475 7.19691C22.2381 8.16205 22.3962 10.0845 21.1803 11.2448C20.6555 11.7456 20.3607 12.4248 20.3607 13.133V18.0108C20.3607 20.214 18.4891 22 16.1804 22Z" 
 
 		}),
 	);
 }
 
-export default React.forwardRef(Loading);
+export default React.forwardRef(HomeClose);
 

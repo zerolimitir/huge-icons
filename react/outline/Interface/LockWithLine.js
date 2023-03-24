@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function Loading({ size, title, titleId, ...props }, svgRef) {
+function LockWithLine({ size, title, titleId, ...props }, svgRef) {
 	return /*#__PURE__*/ React.createElement(
 		"svg",
 		Object.assign(
@@ -31,11 +31,11 @@ function Loading({ size, title, titleId, ...props }, svgRef) {
 			: null,
 		/*#__PURE__*/ React.createElement("path", {
 			 d:
-			 "M12 5V2M12 22V19M7.05028 7.05024L4.92896 4.92892M19.0711 19.0711L16.9498 16.9497M19 12H22M2 12H5M16.9497 7.05024L19.071 4.92892M4.92891 19.0711L7.05023 16.9497" 
+			 "M16 8H8M16 8C18.2091 8 20 9.79086 20 12V18C20 20.2091 18.2091 22 16 22H8C5.79086 22 4 20.2091 4 18V12C4 9.79086 5.79086 8 8 8M16 8V6C16 3.79086 14.2091 2 12 2C9.79086 2 8 3.79086 8 6V8M12 16V14" 
 
 		}),
 	);
 }
 
-export default React.forwardRef(Loading);
+export default React.forwardRef(LockWithLine);
 
