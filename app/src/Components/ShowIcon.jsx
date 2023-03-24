@@ -13,7 +13,7 @@ const ShowIcon = () => {
 		setCopied(iconName);
 		toast.success(`${copied} copied to clipboard`, {
 			position: "bottom-center",
-			autoClose: 2000,
+			autoClose: 1000,
 			closeOnClick: true,
 			theme: "light",
 		});
@@ -47,7 +47,7 @@ const ShowIcon = () => {
 						const IconComponent = ListIconOutline[iconName];
 						return (
 							<CopyToClipboard
-								text={iconName}
+								text={`<` + `${iconName} />`}
 								onCopy={() => setCopy(iconName)}
 								key={index}>
 								<li className=" p-5 flex flex-col items-center gap-3">
