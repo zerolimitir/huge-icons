@@ -1,9 +1,12 @@
 import ShowIcon from "./Components/ShowIcon";
 import { ToastContainer } from "react-toastify";
+import DocHugeIcon from "./Components/DocHugeIcon";
 
 function App() {
 	return (
-		<>
+		<div className="container">
+			<DocHugeIcon />
+
 			<ShowIcon />
 
 			<ToastContainer
@@ -19,7 +22,7 @@ function App() {
 				pauseOnHover
 				theme="colored"
 			/>
-		</>
+		</div>
 	);
 }
 

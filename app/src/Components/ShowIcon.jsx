@@ -11,7 +11,7 @@ const ShowIcon = () => {
 
 	const setCopy = iconName => {
 		setCopied(iconName);
-		toast.success(`${copied} copied to clipboard`, {
+		toast.success(`${copied} Copied to clipboard`, {
 			position: "bottom-center",
 			autoClose: 1000,
 			closeOnClick: true,
@@ -40,33 +40,31 @@ const ShowIcon = () => {
 	];
 
 	return (
-		<div className="container">
-			<ul className="list-none grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] text-">
-				{keys &&
-					keys.map((iconName, index) => {
-						const IconComponent = ListIconOutline[iconName];
-						return (
-							<CopyToClipboard
-								text={`<` + `${iconName} />`}
-								onCopy={() => setCopy(iconName)}
-								key={index}>
-								<li className=" p-5 flex flex-col items-center gap-3">
-									<span
-										className={`border-2 ${
-											copied === iconName ? "border-red-700" : ""
-										} rounded-lg p-5`}>
-										<IconComponent
-											size="5rem"
-											className={colors[Math.floor(Math.random() * 17)]}
-										/>
-									</span>
-									<span className="font-bold">{iconName}</span>
-								</li>
-							</CopyToClipboard>
-						);
-					})}
-			</ul>
-		</div>
+		<ul className="list-none grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] text-">
+			{keys &&
+				keys.map((iconName, index) => {
+					const IconComponent = ListIconOutline[iconName];
+					return (
+						<CopyToClipboard
+							text={`<` + `${iconName} />`}
+							onCopy={() => setCopy(iconName)}
+							key={index}>
+							<li className=" p-5 flex flex-col items-center gap-3">
+								<span
+									className={`border-2 ${
+										copied === iconName ? "border-red-700" : ""
+									} rounded-lg p-5 cursor-pointer`}>
+									<IconComponent
+										size="5rem"
+										className={colors[Math.floor(Math.random() * 17)]}
+									/>
+								</span>
+								<span className="font-bold">{iconName}</span>
+							</li>
+						</CopyToClipboard>
+					);
+				})}
+		</ul>
 	);
 };
 
