@@ -1,11 +1,25 @@
-import * as ListIcon from "react-huge-icons/outline";
+import * as ListIconOutline from "react-huge-icons/outline";
+import { CopyToClipboard } from "react-copy-to-clipboard";
+import { useState } from "react";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ShowIcon = () => {
-	// const Icons = Object.entries(ListIcon);
-	const keys = Object.keys(ListIcon);
+	const keys = Object.keys(ListIconOutline);
+
+	const [copied, setCopied] = useState("");
+
+	const setCopy = iconName => {
+		setCopied(iconName);
+		toast.success(`${copied} copied to clipboard`, {
+			position: "bottom-center",
+			autoClose: 2000,
+			closeOnClick: true,
+			theme: "light",
+		});
+	};
 
 	const colors = [
-		"text-gray-500",
 		"text-red-500",
 		"text-sky-500",
 		"text-blue-500",
@@ -26,19 +40,29 @@ const ShowIcon = () => {
 	];
 
 	return (
-		// grid grid-cols-2 sm:grid-cols-4
 		<div className="container">
 			<ul className="list-none grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] text-">
 				{keys &&
 					keys.map((iconName, index) => {
-						const IconComponent = ListIcon[iconName];
+						const IconComponent = ListIconOutline[iconName];
 						return (
-							<li className=" p-5 flex flex-col items-center gap-3">
-								<span className="border rounded-lg p-5">
-									<IconComponent key={index} size="5rem" className={colors[Math.floor(Math.random() * 18)]} />
-								</span>
-								<span className="font-bold">{iconName}</span>
-							</li>
+							<CopyToClipboard
+								text={iconName}
+								onCopy={() => setCopy(iconName)}
+								key={index}>
+								<li className=" p-5 flex flex-col items-center gap-3">
+									<span
+										className={`border-2 ${
+											copied === iconName ? "border-red-700" : ""
+										} rounded-lg p-5`}>
+										<IconComponent
+											size="5rem"
+											className={colors[Math.floor(Math.random() * 17)]}
+										/>
+									</span>
+									<span className="font-bold">{iconName}</span>
+								</li>
+							</CopyToClipboard>
 						);
 					})}
 			</ul>
