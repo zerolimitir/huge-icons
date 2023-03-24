@@ -56,11 +56,12 @@ const Installation = () => {
 const Usage = () => {
 	return (
 		<>
-			<h2 className="py-2 px-5 text-primary font-bold text-base lg:text-lg xl:text-xl">
-				Usage
-			</h2>
-
-			<p>Outline Icons</p>
+			<div className="py-2 px-5">
+				<h2 className="text-primary font-bold text-base lg:text-lg xl:text-xl">
+					Usage
+				</h2>
+				<p>Outline Icons</p>
+			</div>
 			<ShowCodeJSX
 				code={`
 import { Archive } from "react-huge-icons/outline";
@@ -78,11 +79,13 @@ export default App;
 				language="bash"
 			/>
 
-			<h2 className="py-2 px-5 text-primary font-bold text-base lg:text-lg xl:text-xl">
-				Usage
-			</h2>
+			<div className="py-2 px-5">
+				<h2 className="text-primary font-bold text-base lg:text-lg xl:text-xl">
+					Usage
+				</h2>
 
-			<p>Solid Icons</p>
+				<p>Solid Icons</p>
+			</div>
 			<ShowCodeJSX
 				code={`
 import { Archive } from "react-huge-icons/solid";
