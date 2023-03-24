@@ -1,0 +1,13 @@
+// {
+//     "IconPack":[
+//         {
+//             "packName":"File and Folder",
+//             "itemPack":[
+//                 {
+//                     "nameIcon":"Archive",
+//                     "iconComponent":<Archive />
+//                 }
+//             ]
+//         }
+//     ]
+// }
