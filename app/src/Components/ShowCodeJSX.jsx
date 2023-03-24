@@ -5,8 +5,8 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import { toast } from "react-toastify";
 
 const ShowCodeJSX = ({ code, language }) => {
-	const exampleCode = code || "//Zero Icon";
-	const exampleLanguage = language || "jsx";
+	const exampleCode = code.trim() || "//Zero Icon";
+	const exampleLanguage = language.trim() || "jsx";
 
 	const setCopy = () => {
 		toast.success(`Copied to clipboard`, {

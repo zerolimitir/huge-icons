@@ -40,7 +40,7 @@ const ShowIcon = () => {
 	];
 
 	return (
-		<ul className="list-none grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] text-">
+		<ul className="list-none grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] text-">
 			{keys &&
 				keys.map((iconName, index) => {
 					const IconComponent = ListIconOutline[iconName];
@@ -49,13 +49,13 @@ const ShowIcon = () => {
 							text={`<` + `${iconName} />`}
 							onCopy={() => setCopy(iconName)}
 							key={index}>
-							<li className=" p-5 flex flex-col items-center gap-3">
+							<li className="p-5 flex flex-col items-center gap-3">
 								<span
 									className={`border-2 ${
 										copied === iconName ? "border-red-700" : ""
 									} rounded-lg p-5 cursor-pointer`}>
 									<IconComponent
-										size="5rem"
+										size="7rem"
 										className={colors[Math.floor(Math.random() * 17)]}
 									/>
 								</span>

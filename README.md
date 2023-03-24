@@ -45,7 +45,7 @@ function App() {
 
 export default App;
 ```
-#### Outline Icons
+#### Solid Icons
 
 ```JSX
 import { Archive } from "react-huge-icons/solid";
