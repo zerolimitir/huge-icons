@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function Cart01({ size, title, titleId, ...props }, svgRef) {
+function CartCurvedLine({ size, title, titleId, ...props }, svgRef) {
   return /*#__PURE__*/ React.createElement(
     "svg",
     Object.assign(
@@ -39,16 +39,11 @@ function Cart01({ size, title, titleId, ...props }, svgRef) {
       d: "M20 20.5C20 21.3284 19.3284 22 18.5 22C17.6716 22 17 21.3284 17 20.5C17 19.6716 17.6716 19 18.5 19C19.3284 19 20 19.6716 20 20.5Z",
     }),
     /*#__PURE__*/ React.createElement("path", {
-      d: "M11 8.5H17",
-      strokeLinejoin: "round",
-      strokeLineCap: "round",
-    }),
-    /*#__PURE__*/ React.createElement("path", {
-      d: "M11 12.5H17",
+      d: "M11 12C13.3561 13.3404 14.6476 13.3263 17 12",
       strokeLinejoin: "round",
       strokeLineCap: "round",
     })
   );
 }
 
-export default React.forwardRef(Cart01);
+export default React.forwardRef(CartCurvedLine);

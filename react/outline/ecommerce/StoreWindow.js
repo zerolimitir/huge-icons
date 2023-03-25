@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function ShoppingBasket02({ size, title, titleId, ...props }, svgRef) {
+function StoreWindow({ size, title, titleId, ...props }, svgRef) {
   return /*#__PURE__*/ React.createElement(
     "svg",
     Object.assign(
@@ -12,6 +12,7 @@ function ShoppingBasket02({ size, title, titleId, ...props }, svgRef) {
         fill: "none",
         stroke: "currentColor",
         strokeWidth: "1.5",
+        strokeLinejoin: "round",
         "aria-hidden": "true",
         ref: svgRef,
         "aria-labelledby": titleId,
@@ -28,30 +29,18 @@ function ShoppingBasket02({ size, title, titleId, ...props }, svgRef) {
         )
       : null,
     /*#__PURE__*/ React.createElement("path", {
-      d: "M2.58683 10H21.4132M18.0351 6L5.96486 6C3.45403 6 1.57594 8.32624 2.08312 10.808L3.71804 18.808C4.09787 20.6666 5.71942 22 7.59978 22H16.4002C18.2806 22 19.9021 20.6666 20.282 18.808L21.9169 10.808C22.4241 8.32624 20.546 6 18.0351 6Z",
-      strokeLinejoin: "round",
-      strokeLineCap: "round",
+      d: "M7 18C7 16.8954 7.89543 16 9 16C10.1046 16 11 16.8954 11 18V22H7V18Z",
     }),
     /*#__PURE__*/ React.createElement("path", {
-      d: "M9 2L6 6",
-      strokeLinejoin: "round",
-      strokeLineCap: "round",
+      d: "M22 8.25V6C22 3.79086 20.2091 2 18 2H6C3.79086 2 2 3.79086 2 6V8.25C2 10.3211 3.49238 12 5.33333 12C7.17428 12 8.66667 10.3211 8.66667 8.25C8.66667 10.3211 10.1591 12 12 12C13.841 12 15.3333 10.3211 15.3333 8.25C15.3333 10.3211 16.8257 12 18.6667 12C20.5076 12 22 10.3211 22 8.25Z",
     }),
     /*#__PURE__*/ React.createElement("path", {
-      d: "M15 2L18 6",
-      strokeLinejoin: "round",
-      strokeLineCap: "round",
+      d: "M14 15C14 14.4477 14.4477 14 15 14H17C17.5523 14 18 14.4477 18 15V16C18 16.5523 17.5523 17 17 17H15C14.4477 17 14 16.5523 14 16V15Z",
     }),
     /*#__PURE__*/ React.createElement("path", {
-      d: "M9 14L9 18",
-      strokeLinejoin: "round",
-      strokeLineCap: "round",
-    }),
-    /*#__PURE__*/ React.createElement("path", {
-      d: "M15 14L15 18",
-      strokeLinejoin: "round",
-      strokeLineCap: "round",
+      d: "M21 11V18C21 20.2091 19.2091 22 17 22H7C4.79086 22 3 20.2091 3 18V11",
     })
   );
 }
-export default React.forwardRef(ShoppingBasket02);
+
+export default React.forwardRef(StoreWindow);

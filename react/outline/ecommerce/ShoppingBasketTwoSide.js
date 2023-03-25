@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function ShoppingBasket01({ size, title, titleId, ...props }, svgRef) {
+function ShoppingBasketTwoSide({ size, title, titleId, ...props }, svgRef) {
   return /*#__PURE__*/ React.createElement(
     "svg",
     Object.assign(
@@ -33,7 +33,12 @@ function ShoppingBasket01({ size, title, titleId, ...props }, svgRef) {
       strokeLineCap: "round",
     }),
     /*#__PURE__*/ React.createElement("path", {
-      d: "M17 2L12 6",
+      d: "M9 2L6 6",
+      strokeLinejoin: "round",
+      strokeLineCap: "round",
+    }),
+    /*#__PURE__*/ React.createElement("path", {
+      d: "M15 2L18 6",
       strokeLinejoin: "round",
       strokeLineCap: "round",
     }),
@@ -49,4 +54,4 @@ function ShoppingBasket01({ size, title, titleId, ...props }, svgRef) {
     })
   );
 }
-export default React.forwardRef(ShoppingBasket01);
+export default React.forwardRef(ShoppingBasketTwoSide);

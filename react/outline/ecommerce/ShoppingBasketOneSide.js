@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function PackageBox01({ size, title, titleId, ...props }, svgRef) {
+function ShoppingBasketOneSide({ size, title, titleId, ...props }, svgRef) {
   return /*#__PURE__*/ React.createElement(
     "svg",
     Object.assign(
@@ -28,18 +28,25 @@ function PackageBox01({ size, title, titleId, ...props }, svgRef) {
         )
       : null,
     /*#__PURE__*/ React.createElement("path", {
-      d: "M22 18V6.96126C22 6.3537 21.7238 5.77907 21.2494 5.39953L18.0957 2.87654C17.3864 2.30914 16.5052 2.00001 15.5969 2.00001L8.40313 2C7.49484 2 6.6136 2.30912 5.90434 2.87653L2.75061 5.39953C2.27618 5.77907 2 6.35369 2 6.96126V18C2 20.2092 3.79086 22 6 22H18C20.2091 22 22 20.2092 22 18Z",
+      d: "M2.58683 10H21.4132M18.0351 6L5.96486 6C3.45403 6 1.57594 8.32624 2.08312 10.808L3.71804 18.808C4.09787 20.6666 5.71942 22 7.59978 22H16.4002C18.2806 22 19.9021 20.6666 20.282 18.808L21.9169 10.808C22.4241 8.32624 20.546 6 18.0351 6Z",
       strokeLinejoin: "round",
+      strokeLineCap: "round",
     }),
     /*#__PURE__*/ React.createElement("path", {
-      d: "M9 6H15V9C15 10.6569 13.6569 12 12 12C10.3431 12 9 10.6569 9 9V6Z",
+      d: "M17 2L12 6",
       strokeLinejoin: "round",
+      strokeLineCap: "round",
     }),
     /*#__PURE__*/ React.createElement("path", {
-      d: "M2.5 6H21.5",
+      d: "M9 14L9 18",
       strokeLinejoin: "round",
-      strokeLinecap: "round",
+      strokeLineCap: "round",
+    }),
+    /*#__PURE__*/ React.createElement("path", {
+      d: "M15 14L15 18",
+      strokeLinejoin: "round",
+      strokeLineCap: "round",
     })
   );
 }
-export default React.forwardRef(PackageBox01);
+export default React.forwardRef(ShoppingBasketOneSide);

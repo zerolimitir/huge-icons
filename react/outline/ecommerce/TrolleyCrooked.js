@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function Trolley01({ size, title, titleId, ...props }, svgRef) {
+function TrolleyCrooked({ size, title, titleId, ...props }, svgRef) {
   return /*#__PURE__*/ React.createElement(
     "svg",
     Object.assign(
@@ -34,4 +34,4 @@ function Trolley01({ size, title, titleId, ...props }, svgRef) {
     })
   );
 }
-export default React.forwardRef(Trolley01);
+export default React.forwardRef(TrolleyCrooked);

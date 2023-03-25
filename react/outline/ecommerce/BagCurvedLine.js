@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function Bag01({ size, title, titleId, ...props }, svgRef) {
+function BagCurvedLine({ size, title, titleId, ...props }, svgRef) {
   return /*#__PURE__*/ React.createElement(
     "svg",
     Object.assign(
@@ -44,4 +44,4 @@ function Bag01({ size, title, titleId, ...props }, svgRef) {
   );
 }
 
-export default React.forwardRef(Bag01);
+export default React.forwardRef(BagCurvedLine);
