@@ -1,4 +1,4 @@
-var SvgConvert = require("../lib").GenIcon;
+import { GenIcon as SvgConvert } from "../lib";
 
 export function Archive(props) {
 	return SvgConvert({
