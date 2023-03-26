@@ -14,7 +14,7 @@
 	],
 	"module": "react-huge-icon/index.esm.js",
 	"scripts": {
-		"rimraf": "rimraf ./react-huge-icon-develop/_components/outline && rimraf ./react-huge-icon-develop/_components/solid && rimraf ./react-huge-icon-develop/_components/bulk && rimraf ./react-huge-icon/bulk && rimraf ./react-huge-icon/outline && rimraf ./react-huge-icon/solid",
+		"rimraf": "rimraf ./react-huge-icon-develop/_svg/bulk/optimized && rimraf ./react-huge-icon-develop/_svg/outline/optimized && rimraf ./react-huge-icon-develop/_svg/solid/optimized && rimraf ./react-huge-icon-develop/_components/bulk && rimraf ./react-huge-icon-develop/_components/outline && rimraf ./react-huge-icon-develop/_components/solid && rimraf ./react-huge-icon/bulk && rimraf ./react-huge-icon/outline && rimraf ./react-huge-icon/solid",
 		"build": "npm run rimraf && npm run outline:mk-cp && npm run solid:mk-cp && npm run bulk:mk-cp && npm run rollup",
 		"outline:mk-cp": "npm run outline:svgo && npm run outline:svgr",
 		"solid:mk-cp": "npm run solid:svgo && npm run solid:svgr",
