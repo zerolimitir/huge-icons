@@ -1,27 +1,38 @@
 {
-	"name": "react-huge-icons",
-	"license": "MIT",
-	"version": "0.0.5",
-	"description": "A Huge Icons icon pack made by Zero-Icon team. Developing ...",
-	"keywords": [
-		"react",
-		"react-icons",
-		"icons",
-		"svg",
-		"icon-pack",
-		"react-huge-icons",
-		"Zero-Icon"
-	],
-	"homepage": "https://zero-icons.github.io/",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/zero-icons/huge-icons.git"
-	},
-	"author": "Peyman Naderi, Mohmad Dorqi, Amirmahdi Shad",
-	"publishConfig": {
-		"access": "public"
-	},
-	"peerDependencies": {
-		"react": ">= 16"
-	}
+    "name": "react-huge-icons",
+    "license": "MIT",
+    "version": "0.0.5",
+    "description": "A Huge Icons icon pack made by Zero-Icon team. Developing ...",
+    "keywords": [
+        "react",
+        "react-icons",
+        "icons",
+        "svg",
+        "icon-pack",
+        "react-huge-icons",
+        "Zero-Icon"
+    ],
+    "homepage": "https://zero-icons.github.io/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zero-icons/react-huge-icon.git"
+    },
+    "author": {
+        "name": "Peyman Naderi",
+        "email": "naderidefault@gmail.com",
+        "url": "http://github.com/peymanath"
+    },
+    "contributors": [
+        {
+            "name": "Mohmad Dorqi",
+            "email": "mohmad-dorqi@gmail.com",
+            "url": "https://github.com/mohmad-dorqi"
+        }
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "react": ">= 16"
+    }
 }
