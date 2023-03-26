@@ -155,4 +155,5 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
-react-huge-icon-develop/
+_components
+_svg
