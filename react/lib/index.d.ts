@@ -1,1 +1,0 @@
-export declare type IconType = (props: IconBaseProps) => JSX.Element;

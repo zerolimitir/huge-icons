@@ -5,7 +5,7 @@ import external from "rollup-plugin-peer-deps-external";
 
 export default [
 	{
-		input: "./react-huge-icon-dev/components/outline/index.js",
+		input: "./react-huge-icon-develop/_components/outline/index.js",
 		output: [
 			{
 				file: "react-huge-icon/outline/index.js",
@@ -28,7 +28,7 @@ export default [
 		],
 	},
 	{
-		input: "./react-huge-icon-dev/components/solid/index.js",
+		input: "./react-huge-icon-develop/_components/solid/index.js",
 		output: [
 			{
 				file: "react-huge-icon/solid/index.js",
@@ -51,7 +51,7 @@ export default [
 		],
 	},
 	{
-		input: "./react-huge-icon-dev/components/bulk/index.js",
+		input: "./react-huge-icon-develop/_components/bulk/index.js",
 		output: [
 			{
 				file: "react-huge-icon/bulk/index.js",
