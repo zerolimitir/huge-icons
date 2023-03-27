@@ -23,18 +23,9 @@ developing ...
 ## Installation
 
     npm i react-huge-icons
-<<<<<<< HEAD
-
 or
-yarn add react-huge-icons
-
-=======
-    
-or
-
     yarn add react-huge-icons
-    
->>>>>>> dc9d2122dd7f8afdd76b9782241d7c7303f09888
+
 ## Usage
 
 #### Outline Icons
