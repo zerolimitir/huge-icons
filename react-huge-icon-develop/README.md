@@ -1,2 +1,1 @@
-
 # Huge Icon React Package

@@ -5,8 +5,8 @@ module.exports = {
     printWidth: 100,
     semi: true,
     singleQuote: true,
-    jsxSingleQuote:true,
-    bracketSameLine:true,
-    jsxBracketSameLine:true,
-    arrowParens:"avoid"
+    jsxSingleQuote: true,
+    bracketSameLine: true,
+    jsxBracketSameLine: true,
+    arrowParens: 'avoid',
 };

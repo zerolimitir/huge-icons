@@ -1,55 +1,55 @@
 {
-	"name": "react-huge-icons",
-	"license": "MIT",
-	"version": "0.0.5",
-	"description": "A Huge Icons icon pack made by Zero-Icon team. Developing ...",
-	"keywords": [
-		"react",
-		"react-icons",
-		"icons",
-		"svg",
-		"icon-pack",
-		"react-huge-icons",
-		"Zero-Icon"
-	],
-	"module": "react-huge-icon/index.esm.js",
-	"scripts": {
-		"rimraf": "rimraf ./react-huge-icon-develop/_svg/bulk/optimized && rimraf ./react-huge-icon-develop/_svg/outline/optimized && rimraf ./react-huge-icon-develop/_svg/solid/optimized && rimraf ./react-huge-icon-develop/_components/bulk && rimraf ./react-huge-icon-develop/_components/outline && rimraf ./react-huge-icon-develop/_components/solid && rimraf ./react-huge-icon/bulk && rimraf ./react-huge-icon/outline && rimraf ./react-huge-icon/solid",
-		"build": "npm run rimraf && npm run outline:mk-cp && npm run solid:mk-cp && npm run bulk:mk-cp && npm run rollup",
-		"outline:mk-cp": "npm run outline:svgo && npm run outline:svgr",
-		"solid:mk-cp": "npm run solid:svgo && npm run solid:svgr",
-		"bulk:mk-cp": "npm run bulk:svgo && npm run bulk:svgr",
-		"outline:svgo": "svgo -f react-huge-icon-develop/_svg/outline -o react-huge-icon-develop/_svg/outline/optimized",
-		"solid:svgo": "svgo -f react-huge-icon-develop/_svg/solid -o react-huge-icon-develop/_svg/solid/optimized",
-		"bulk:svgo": "svgo -f react-huge-icon-develop/_svg/bulk -o react-huge-icon-develop/_svg/bulk/optimized",
-		"outline:svgr": "svgr -d react-huge-icon-develop/_components/outline react-huge-icon-develop/_svg/outline/optimized",
-		"solid:svgr": "svgr -d react-huge-icon-develop/_components/solid react-huge-icon-develop/_svg/solid/optimized",
-		"bulk:svgr": "svgr -d react-huge-icon-develop/_components/bulk react-huge-icon-develop/_svg/bulk/optimized",
-		"rollup": "rollup -c"
-	},
-	"dependencies": {
-		"@babel/runtime": "^7.21.0",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
-	},
-	"peerDependencies": {
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
-	},
-	"devDependencies": {
-		"@babel/core": "^7.21.3",
-		"@babel/plugin-transform-runtime": "^7.21.0",
-		"@babel/preset-env": "^7.20.2",
-		"@babel/preset-react": "^7.18.6",
-		"@rollup/plugin-commonjs": "^24.0.1",
-		"@rollup/plugin-node-resolve": "^15.0.1",
-		"@svgr/cli": "^7.0.0",
-		"babel-loader": "^9.1.2",
-		"babel-preset-minify": "^0.5.2",
-		"prettier": "2.8.7",
-		"rimraf": "^4.4.1",
-		"rollup": "^2.79.1",
-		"rollup-plugin-babel": "^4.4.0",
-		"rollup-plugin-peer-deps-external": "^2.2.4"
-	}
+    "name": "react-huge-icons",
+    "license": "MIT",
+    "version": "0.0.5",
+    "description": "A Huge Icons icon pack made by Zero-Icon team. Developing ...",
+    "keywords": [
+        "react",
+        "react-icons",
+        "icons",
+        "svg",
+        "icon-pack",
+        "react-huge-icons",
+        "Zero-Icon"
+    ],
+    "module": "react-huge-icon/index.esm.js",
+    "scripts": {
+        "rimraf": "rimraf ./react-huge-icon-develop/_svg/bulk/optimized && rimraf ./react-huge-icon-develop/_svg/outline/optimized && rimraf ./react-huge-icon-develop/_svg/solid/optimized && rimraf ./react-huge-icon-develop/_components/bulk && rimraf ./react-huge-icon-develop/_components/outline && rimraf ./react-huge-icon-develop/_components/solid && rimraf ./react-huge-icon/bulk && rimraf ./react-huge-icon/outline && rimraf ./react-huge-icon/solid",
+        "build": "npm run rimraf && npm run outline:mk-cp && npm run solid:mk-cp && npm run bulk:mk-cp && npm run rollup",
+        "outline:mk-cp": "npm run outline:svgo && npm run outline:svgr",
+        "solid:mk-cp": "npm run solid:svgo && npm run solid:svgr",
+        "bulk:mk-cp": "npm run bulk:svgo && npm run bulk:svgr",
+        "outline:svgo": "svgo -f react-huge-icon-develop/_svg/outline -o react-huge-icon-develop/_svg/outline/optimized",
+        "solid:svgo": "svgo -f react-huge-icon-develop/_svg/solid -o react-huge-icon-develop/_svg/solid/optimized",
+        "bulk:svgo": "svgo -f react-huge-icon-develop/_svg/bulk -o react-huge-icon-develop/_svg/bulk/optimized",
+        "outline:svgr": "svgr -d react-huge-icon-develop/_components/outline react-huge-icon-develop/_svg/outline/optimized",
+        "solid:svgr": "svgr -d react-huge-icon-develop/_components/solid react-huge-icon-develop/_svg/solid/optimized",
+        "bulk:svgr": "svgr -d react-huge-icon-develop/_components/bulk react-huge-icon-develop/_svg/bulk/optimized",
+        "rollup": "rollup -c"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.21.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "peerDependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.21.3",
+        "@babel/plugin-transform-runtime": "^7.21.0",
+        "@babel/preset-env": "^7.20.2",
+        "@babel/preset-react": "^7.18.6",
+        "@rollup/plugin-commonjs": "^24.0.1",
+        "@rollup/plugin-node-resolve": "^15.0.1",
+        "@svgr/cli": "^7.0.0",
+        "babel-loader": "^9.1.2",
+        "babel-preset-minify": "^0.5.2",
+        "prettier": "2.8.7",
+        "rimraf": "^4.4.1",
+        "rollup": "^2.79.1",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-peer-deps-external": "^2.2.4"
+    }
 }
