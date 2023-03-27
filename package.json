@@ -25,7 +25,9 @@
         "outline:svgr": "svgr -d react-huge-icon-develop/_components/outline react-huge-icon-develop/_svg/outline/optimized",
         "solid:svgr": "svgr -d react-huge-icon-develop/_components/solid react-huge-icon-develop/_svg/solid/optimized",
         "bulk:svgr": "svgr -d react-huge-icon-develop/_components/bulk react-huge-icon-develop/_svg/bulk/optimized",
-        "rollup": "rollup -c"
+        "rollup": "rollup -c",
+        "format": "prettier --write .",
+        "check-format": "prettier --check ."
     },
     "dependencies": {
         "@babel/runtime": "^7.21.0",
