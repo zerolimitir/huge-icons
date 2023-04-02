@@ -1,7 +1,7 @@
 {
-    "name": "react-huge-icons",
+    "name": "test-react-huge-iconss",
     "license": "MIT",
-    "version": "0.0.5",
+    "version": "0.0.2",
     "description": "A Huge Icons icon pack made by Zero-Icon team. Developing ...",
     "keywords": [
         "react",
@@ -9,13 +9,13 @@
         "icons",
         "svg",
         "icon-pack",
-        "react-huge-icons",
+        "react-huge-iconss",
         "Zero-Icon"
     ],
     "homepage": "https://zero-icons.github.io/",
     "repository": {
         "type": "git",
-        "url": "https://github.com/zero-icons/react-huge-icon.git"
+        "url": "https://github.com/zero-icons/react-huge-icons.git"
     },
     "author": {
         "name": "Peyman Naderi",

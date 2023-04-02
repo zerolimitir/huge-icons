@@ -2,10 +2,10 @@
 
 <div align="center">
 
-[![Version NPM](https://img.shields.io/npm/v/react-huge-icons?label=version&color=blue&style=flat)](https://www.npmjs.com/package/react-huge-icons)
-[![Downloads NPM](https://img.shields.io/npm/dw/react-huge-icons?label=downloads npm)](https://www.npmjs.com/package/react-huge-icons)
+[![Version NPM](https://img.shields.io/npm/v/react-huge-iconss?label=version&color=blue&style=flat)](https://www.npmjs.com/package/react-huge-iconss)
+[![Downloads NPM](https://img.shields.io/npm/dw/react-huge-iconss?label=downloads npm)](https://www.npmjs.com/package/react-huge-iconss)
 ![stars](https://img.shields.io/github/stars/zero-icons/huge-icons?color=gold&style=flat)
-[![License NPM](https://img.shields.io/npm/l/react-huge-icons?color=green&style=flat)](https://www.npmjs.com/package/react-huge-icons)
+[![License NPM](https://img.shields.io/npm/l/react-huge-iconss?color=green&style=flat)](https://www.npmjs.com/package/react-huge-iconss)
 ![fork](https://img.shields.io/github/forks/zero-icons/huge-icons?color=purple&style=flat)
 
 ![](cover.jpg)
@@ -22,17 +22,17 @@ developing ...
 
 ## Installation
 
-    npm i react-huge-icons
+    npm i react-huge-iconss
 
 or
-yarn add react-huge-icons
+yarn add react-huge-iconss
 
 ## Usage
 
 #### Outline Icons
 
 ```JSX
-import { Archive } from "react-huge-icons/outline";
+import { Archive } from "react-huge-iconss/outline";
 
 function App() {
 	return (
@@ -48,7 +48,7 @@ export default App;
 #### Solid Icons
 
 ```JSX
-import { Archive } from "react-huge-icons/solid";
+import { Archive } from "react-huge-iconss/solid";
 
 function App() {
 	return (

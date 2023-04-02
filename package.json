@@ -1,5 +1,5 @@
 {
-    "name": "react-huge-icons",
+    "name": "react-huge-iconss",
     "license": "MIT",
     "version": "0.0.5",
     "description": "A Huge Icons icon pack made by Zero-Icon team. Developing ...",
@@ -9,22 +9,23 @@
         "icons",
         "svg",
         "icon-pack",
-        "react-huge-icons",
+        "react-huge-iconss",
         "Zero-Icon"
     ],
-    "module": "react-huge-icon/index.esm.js",
+    "types": "react-huge-icons/index.d.ts",
     "scripts": {
-        "rimraf": "rimraf ./react-huge-icon-develop/_svg/bulk/optimized && rimraf ./react-huge-icon-develop/_svg/outline/optimized && rimraf ./react-huge-icon-develop/_svg/solid/optimized && rimraf ./react-huge-icon-develop/_components/bulk && rimraf ./react-huge-icon-develop/_components/outline && rimraf ./react-huge-icon-develop/_components/solid && rimraf ./react-huge-icon/bulk && rimraf ./react-huge-icon/outline && rimraf ./react-huge-icon/solid",
-        "build": "npm run rimraf && npm run outline:mk-cp && npm run solid:mk-cp && npm run bulk:mk-cp && npm run rollup",
+        "rimraf": "rimraf ./react-huge-icons-develop/_svg/bulk/optimized && rimraf ./react-huge-icons-develop/_svg/outline/optimized && rimraf ./react-huge-icons-develop/_svg/solid/optimized && rimraf ./react-huge-icons-develop/_components/bulk && rimraf ./react-huge-icons-develop/_components/outline && rimraf ./react-huge-icons-develop/_components/solid && rimraf ./react-huge-icons/bulk && rimraf ./react-huge-icons/outline && rimraf ./react-huge-icons/solid",
+        "rimraf:types": "rimraf ./react-huge-icons/bulk/types && rimraf ./react-huge-icons/bulk/esm/types && rimraf ./react-huge-icons/outline/types && rimraf ./react-huge-icons/outline/esm/types && rimraf ./react-huge-icons/solid/types && rimraf ./react-huge-icons/solid/esm/types",
+        "build": "npm run rimraf && npm run outline:mk-cp && npm run solid:mk-cp && npm run bulk:mk-cp && npm run rollup && npm run rimraf:types",
         "outline:mk-cp": "npm run outline:svgo && npm run outline:svgr",
         "solid:mk-cp": "npm run solid:svgo && npm run solid:svgr",
         "bulk:mk-cp": "npm run bulk:svgo && npm run bulk:svgr",
-        "outline:svgo": "svgo -f react-huge-icon-develop/_svg/outline -o react-huge-icon-develop/_svg/outline/optimized",
-        "solid:svgo": "svgo -f react-huge-icon-develop/_svg/solid -o react-huge-icon-develop/_svg/solid/optimized",
-        "bulk:svgo": "svgo -f react-huge-icon-develop/_svg/bulk -o react-huge-icon-develop/_svg/bulk/optimized",
-        "outline:svgr": "svgr -d react-huge-icon-develop/_components/outline react-huge-icon-develop/_svg/outline/optimized",
-        "solid:svgr": "svgr -d react-huge-icon-develop/_components/solid react-huge-icon-develop/_svg/solid/optimized",
-        "bulk:svgr": "svgr -d react-huge-icon-develop/_components/bulk react-huge-icon-develop/_svg/bulk/optimized",
+        "outline:svgo": "svgo -f react-huge-icons-develop/_svg/outline -o react-huge-icons-develop/_svg/outline/optimized",
+        "solid:svgo": "svgo -f react-huge-icons-develop/_svg/solid -o react-huge-icons-develop/_svg/solid/optimized",
+        "bulk:svgo": "svgo -f react-huge-icons-develop/_svg/bulk -o react-huge-icons-develop/_svg/bulk/optimized",
+        "outline:svgr": "svgr -d react-huge-icons-develop/_components/outline react-huge-icons-develop/_svg/outline/optimized",
+        "solid:svgr": "svgr -d react-huge-icons-develop/_components/solid react-huge-icons-develop/_svg/solid/optimized",
+        "bulk:svgr": "svgr -d react-huge-icons-develop/_components/bulk react-huge-icons-develop/_svg/bulk/optimized",
         "rollup": "rollup -c",
         "format": "prettier --write .",
         "check-format": "prettier --check ."
@@ -32,7 +33,8 @@
     "dependencies": {
         "@babel/runtime": "^7.21.0",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "typescript": "^5.0.3"
     },
     "peerDependencies": {
         "react": "^18.2.0",
@@ -45,13 +47,17 @@
         "@babel/preset-react": "^7.18.6",
         "@rollup/plugin-commonjs": "^24.0.1",
         "@rollup/plugin-node-resolve": "^15.0.1",
+        "@rollup/plugin-typescript": "^11.0.0",
         "@svgr/cli": "^7.0.0",
+        "@types/react": "^18.0.32",
         "babel-loader": "^9.1.2",
         "babel-preset-minify": "^0.5.2",
         "prettier": "2.8.7",
         "rimraf": "^4.4.1",
         "rollup": "^2.79.1",
         "rollup-plugin-babel": "^4.4.0",
-        "rollup-plugin-peer-deps-external": "^2.2.4"
+        "rollup-plugin-dts": "^5.3.0",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "tslib": "^2.5.0"
     }
 }
