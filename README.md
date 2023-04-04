@@ -17,7 +17,13 @@ We are here to convert the Huge Icons package into a ReactJs package. [The docum
 
 PUBLISHED Version 1.0.0
 
-developing ...
+### The figma design
+
+- [The ui8.net website ](https://ui8.net/halal-lab/products/huge-icon-pack-3000-vector-icons-set)
+- [The figma website ](https://www.figma.com/file/gueKmNsJOUyPlQBwV6CiVL/Huge-Icons)
+
+### What should we add in the next updates?
+To see the next updates, see the *[CHANGELOG](https://github.com/zero-icons/react-huge-icons/blob/main/CHANGELOG.md#unreleased)* file
 
 ## Installation
 
