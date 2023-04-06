@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
+- 4 icons {money-bag,money, shield,wallet-open,card} were removed from **Ecommerce** category. Note: These 3 iconsare located in the **Finance and Payment** category
 - 3 icons {user,user-circle, user-rectangle} were removed from **Device** category. Note: These 3 iconsare located in the **User** category
 - location icon were removed from **Device** & **Ecommerce** category. Note: These 3 iconsare located in the **Navigation Maps** category
 
