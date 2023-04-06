@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -   change name icons:
     - direction-down-circle => direction-down-double-circle
     - task-check => task-check-paper
+    - clipboard-dowload => clipboard-download
+    - \*-celluler\* -> \*-cellular\*
 -   💯 New List of icons:
     - ✅ Navigation Maps
     - ✅ Finance and Payment
