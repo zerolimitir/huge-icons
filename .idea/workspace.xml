@@ -6,6 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ad2f0a3a-14dc-4ed9-af9e-c24e4145e682" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-huge-icons/bulk/esm/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-huge-icons/bulk/esm/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-huge-icons/bulk/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-huge-icons/bulk/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-huge-icons/outline/esm/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-huge-icons/outline/esm/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-huge-icons/outline/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-huge-icons/outline/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-huge-icons/solid/esm/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react-huge-icons/solid/esm/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-huge-icons/solid/esm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-huge-icons/solid/esm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-huge-icons/solid/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react-huge-icons/solid/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-huge-icons/solid/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-huge-icons/solid/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,23 +33,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Work/Web Business/DevLoPer/Project/Zero Icon/Huge Icon/Dev&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Work\\Web Business\\DevLoPer\\Project\\Zero Icon\\Huge Icon\\Dev\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Work/Web Business/DevLoPer/Project/Zero Icon/Huge Icon/Dev",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "D:\\Work\\Web Business\\DevLoPer\\Project\\Zero Icon\\Huge Icon\\Dev\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "D:\\Work\\Web Business\\DevLoPer\\Project\\Zero Icon\\Huge Icon\\Dev\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Work\Web Business\DevLoPer\Project\Zero Icon\Huge Icon\Dev\react-huge-icons-develop\_svg" />
@@ -59,6 +72,13 @@
       <workItem from="1680630818563" duration="4000" />
       <workItem from="1680630831562" duration="41000" />
       <workItem from="1680630915024" duration="230000" />
+      <workItem from="1680632125987" duration="503000" />
+      <workItem from="1680635419183" duration="25000" />
+      <workItem from="1680678986149" duration="592000" />
+      <workItem from="1680711176081" duration="589000" />
+      <workItem from="1680717711565" duration="591000" />
+      <workItem from="1680729593972" duration="13000" />
+      <workItem from="1680801483852" duration="5123000" />
     </task>
     <servers />
   </component>
