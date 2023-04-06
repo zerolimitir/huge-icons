@@ -21,6 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - task-check => task-check-paper
     - clipboard-dowload => clipboard-download
     - \*-celluler\* -> \*-cellular\*
+    - home-celcius => home-celsius
+    - roof-home-celcius => roof-home-celcius
 
 ### Removed
 
