@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [1.1.0] - 2023-04-07 - 12:30AM
+
 ### Added
 -   💯 New List of icons:
     - ✅ Navigation Maps
