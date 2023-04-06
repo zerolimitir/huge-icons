@@ -6,11 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
--   change name icons:
-    - direction-down-circle => direction-down-double-circle
-    - task-check => task-check-paper
-    - clipboard-dowload => clipboard-download
-    - \*-celluler\* -> \*-cellular\*
+
+### Added
 -   💯 New List of icons:
     - ✅ Navigation Maps
     - ✅ Finance and Payment
@@ -18,8 +15,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - ✅ Ecommerce
     - ✅ Smart House
 
+### Changed
+-   change name icons:
+    - direction-down-circle => direction-down-double-circle
+    - task-check => task-check-paper
+    - clipboard-dowload => clipboard-download
+    - \*-celluler\* -> \*-cellular\*
+
+### Removed
+
+- 3 icons {user,user-circle, user-rectangle} were removed from **Device** category. Note: These 3 iconsare located in the **User** category
+
+
 ## [1.0.0] - 2023-04-02
+
 ### publish package for ReactJs & NextJs (js,ts,jsx,tsx)
+
 -   💯 New config for Rollup & SvgR & TypeScript
 -   💯 Added declare typescript
 -   💯 List of icons:
