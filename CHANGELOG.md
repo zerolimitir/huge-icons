@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+-   💯 New List of icons:
+    - ✅ Interface
+    - ✅ Editor
+    - ✅ Communication
+    - ✅ Weather
+    - ✅ Grid
+    - ✅ Education
+    - ✅ Files and Folder
+    - ✅ Multimedia and Audio
+    - ✅ Business
+    - ✅ Time and Date
+
+### Changed
+- change icon - [#13](https://github.com/zero-icons/react-huge-icons/issues/13) and [#14](https://github.com/zero-icons/react-huge-icons/issues/13) issues
 
 ## [1.1.0] - 2023-04-07 - 12:30AM
 
