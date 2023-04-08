@@ -22,6 +22,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - change icon - [#13](https://github.com/zero-icons/react-huge-icons/issues/13) and [#14](https://github.com/zero-icons/react-huge-icons/issues/13) issues
+-   change name icons:
+    - flash => flash-sharp
 
 ## [1.1.0] - 2023-04-07 - 12:30AM
 
