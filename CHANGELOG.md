@@ -25,6 +25,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -   change name icons:
     - flash => flash-sharp
 
+### Removed
+
+- 3 icons {camera,camera-off, camera-switch} were removed from **Device** category. Note: These 3 iconsare located in the **Multimedia and Audio** category
+
+
 ## [1.1.0] - 2023-04-07 - 12:30AM
 
 ### Added
