@@ -1,0 +1,33 @@
+import * as React from 'react';
+import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+    title?: string;
+    titleId?: string;
+}
+const SvgGiveBlood = (
+    { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+    ref: Ref<SVGSVGElement>
+) => (
+    <svg
+        fill='none'
+        viewBox='0 0 24 24'
+        xmlns='http://www.w3.org/2000/svg'
+        width='1em'
+        height='1em'
+        ref={ref}
+        aria-labelledby={titleId}
+        {...props}>
+        {title ? <title id={titleId}>{title}</title> : null}
+        <path
+            fill='currentColor'
+            d='M14 8.056c0-1.984 1.685-3.943 2.868-5.075a1.621 1.621 0 0 1 2.264 0C20.315 4.113 22 6.072 22 8.056 22 10 20.485 12 18 12c-2.485 0-4-2-4-3.944Z'
+        />
+        <path
+            fill='currentColor'
+            d='M4 10H2v9l4.31 2.155A8 8 0 0 0 9.89 22H18a2 2 0 1 0 0-4h-1.584c-.931 0-1.85-.217-2.683-.633l-2.714-1.721a1.911 1.911 0 0 0-.757-2.906L4 10Z'
+            opacity={0.4}
+        />
+    </svg>
+);
+const ForwardRef = forwardRef(SvgGiveBlood);
+export default ForwardRef;

@@ -9,7 +9,7 @@ export default [
 
     /* ============================ BULK ============================= */
     {
-        input: './react-huge-icons-develop/_components/bulk/index.ts',
+        input: './react-huge-icons-develop/components/bulk/index.ts',
         output: [
             {
                 file: 'react-huge-icons/bulk/index.js',
@@ -44,7 +44,7 @@ export default [
 
     /* ============================ OTLINE ============================= */
     {
-        input: './react-huge-icons-develop/_components/outline/index.ts',
+        input: './react-huge-icons-develop/components/outline/index.ts',
         output: [
             {
                 file: 'react-huge-icons/outline/index.js',
@@ -79,7 +79,7 @@ export default [
 
     /* ============================ SOLID ============================= */
     {
-        input: './react-huge-icons-develop/_components/solid/index.ts',
+        input: './react-huge-icons-develop/components/solid/index.ts',
         output: [
             {
                 file: 'react-huge-icons/solid/index.js',

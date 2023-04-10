@@ -14,7 +14,7 @@
     ],
     "types": "react-huge-icons/index.d.ts",
     "scripts": {
-        "rimraf": "rimraf ./react-huge-icons-develop/_svg/bulk/optimized && rimraf ./react-huge-icons-develop/_svg/outline/optimized && rimraf ./react-huge-icons-develop/_svg/solid/optimized && rimraf ./react-huge-icons-develop/_components/bulk && rimraf ./react-huge-icons-develop/_components/outline && rimraf ./react-huge-icons-develop/_components/solid && rimraf ./react-huge-icons/bulk && rimraf ./react-huge-icons/outline && rimraf ./react-huge-icons/solid",
+        "rimraf": "rimraf ./react-huge-icons-develop/_svg/bulk/optimized && rimraf ./react-huge-icons-develop/_svg/outline/optimized && rimraf ./react-huge-icons-develop/_svg/solid/optimized && rimraf ./react-huge-icons-develop/components/bulk && rimraf ./react-huge-icons-develop/components/outline && rimraf ./react-huge-icons-develop/components/solid && rimraf ./react-huge-icons/bulk && rimraf ./react-huge-icons/outline && rimraf ./react-huge-icons/solid",
         "rimraf:types": "rimraf ./react-huge-icons/bulk/types && rimraf ./react-huge-icons/bulk/esm/types && rimraf ./react-huge-icons/outline/types && rimraf ./react-huge-icons/outline/esm/types && rimraf ./react-huge-icons/solid/types && rimraf ./react-huge-icons/solid/esm/types",
         "build": "npm run rimraf && npm run outline:mk-cp && npm run solid:mk-cp && npm run bulk:mk-cp",
         "outline:mk-cp": "npm run outline:svgo && npm run outline:svgr",
@@ -23,9 +23,9 @@
         "outline:svgo": "svgo -f react-huge-icons-develop/_svg/outline -o react-huge-icons-develop/_svg/outline/optimized",
         "solid:svgo": "svgo -f react-huge-icons-develop/_svg/solid -o react-huge-icons-develop/_svg/solid/optimized",
         "bulk:svgo": "svgo -f react-huge-icons-develop/_svg/bulk -o react-huge-icons-develop/_svg/bulk/optimized",
-        "outline:svgr": "svgr -d react-huge-icons-develop/_components/outline react-huge-icons-develop/_svg/outline/optimized",
-        "solid:svgr": "svgr -d react-huge-icons-develop/_components/solid react-huge-icons-develop/_svg/solid/optimized",
-        "bulk:svgr": "svgr -d react-huge-icons-develop/_components/bulk react-huge-icons-develop/_svg/bulk/optimized",
+        "outline:svgr": "svgr -d react-huge-icons-develop/components/outline react-huge-icons-develop/_svg/outline/optimized",
+        "solid:svgr": "svgr -d react-huge-icons-develop/components/solid react-huge-icons-develop/_svg/solid/optimized",
+        "bulk:svgr": "svgr -d react-huge-icons-develop/components/bulk react-huge-icons-develop/_svg/bulk/optimized",
         "rollup": "rollup -c",
         "format": "prettier --write .",
         "check-format": "prettier --check ."
