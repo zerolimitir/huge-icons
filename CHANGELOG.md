@@ -35,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - zoom-out-rectangle => arrow-zoom-out-rectangle
     - board => wall-board
     - test-tube => test-tube-cylindrical-crooked
+    - setting => setting-short
 
 ### Removed
 
