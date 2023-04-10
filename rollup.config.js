@@ -42,7 +42,7 @@ export default [
         plugins: [dts()],
     },
 
-    /* ============================ OTLINE ============================= */
+    /* ============================ OUTLINE ============================= */
     {
         input: './react-huge-icons-develop/components/outline/index.ts',
         output: [
