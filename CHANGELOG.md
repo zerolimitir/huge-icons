@@ -17,7 +17,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - ✅ Education
     - ✅ Files and Folder
     - ✅ Multimedia and Audio
-    - ✅ Business
     - ✅ Time and Date
 
 ### Changed
@@ -27,10 +26,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - home => home-smile
     - roof-home => roof-home-smile
     - eye => eye-light-double
+    - flag => flag-rectangle
+    - pin => pin-rectangle
+    - zoom-in => arrow-zoom-in
+    - zoom-in-rectangle => arrow-zoom-in-rectangle
+    - zoom-out => arrow-zoom-out
+    - zoom-out-circle => arrow-zoom-out-circle
+    - zoom-out-rectangle => arrow-zoom-out-rectangle
+    - board => wall-board
+    - test-tube => test-tube-cylindrical-crooked
 
 ### Removed
 
 - 7 icons {camera,camera-off, camera-switch,music-off,music,video-off,video} were removed from **Device** category. Note: These 7 iconsare located in the **Multimedia and Audio** category
+- 2 icons {lock,unlock} were removed from **Device** category. Note: These 2 iconsare located in the **Interface** category
 
 
 ## [1.1.0] - 2023-04-07 - 12:30AM
