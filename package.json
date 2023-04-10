@@ -1,7 +1,7 @@
 {
-    "name": "react-huge-iconss",
+    "name": "react-huge-icons",
     "license": "MIT",
-    "version": "0.0.5",
+    "version": "1.2.0",
     "description": "A Huge Icons icon pack made by Zero-Icon team. Developing ...",
     "keywords": [
         "react",
@@ -9,14 +9,14 @@
         "icons",
         "svg",
         "icon-pack",
-        "react-huge-iconss",
+        "react-huge-icons",
         "Zero-Icon"
     ],
     "types": "react-huge-icons/index.d.ts",
     "scripts": {
         "rimraf": "rimraf ./react-huge-icons-develop/_svg/bulk/optimized && rimraf ./react-huge-icons-develop/_svg/outline/optimized && rimraf ./react-huge-icons-develop/_svg/solid/optimized && rimraf ./react-huge-icons-develop/_components/bulk && rimraf ./react-huge-icons-develop/_components/outline && rimraf ./react-huge-icons-develop/_components/solid && rimraf ./react-huge-icons/bulk && rimraf ./react-huge-icons/outline && rimraf ./react-huge-icons/solid",
         "rimraf:types": "rimraf ./react-huge-icons/bulk/types && rimraf ./react-huge-icons/bulk/esm/types && rimraf ./react-huge-icons/outline/types && rimraf ./react-huge-icons/outline/esm/types && rimraf ./react-huge-icons/solid/types && rimraf ./react-huge-icons/solid/esm/types",
-        "build": "npm run rimraf && npm run outline:mk-cp && npm run solid:mk-cp && npm run bulk:mk-cp && npm run rollup && npm run rimraf:types",
+        "build": "npm run rimraf && npm run outline:mk-cp && npm run solid:mk-cp && npm run bulk:mk-cp",
         "outline:mk-cp": "npm run outline:svgo && npm run outline:svgr",
         "solid:mk-cp": "npm run solid:svgo && npm run solid:svgr",
         "bulk:mk-cp": "npm run bulk:svgo && npm run bulk:svgr",
