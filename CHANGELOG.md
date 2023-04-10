@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - flash => flash-sharp
     - home => home-smile
     - roof-home => roof-home-smile
+    - eye => eye-light-double
 
 ### Removed
 
