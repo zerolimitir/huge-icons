@@ -1,7 +1,7 @@
 {
     "name": "react-huge-icons",
     "license": "MIT",
-    "version": "1.2.0",
+    "version": "1.3.1",
     "description": "A Huge Icons icon pack made by Zero-Icon team.",
     "keywords": [
         "react",
@@ -9,7 +9,7 @@
         "icons",
         "svg",
         "icon-pack",
-        "react-huge-iconss",
+        "react-huge-icons",
         "Zero-Icon"
     ],
     "homepage": "https://zero-icons.ir/package/react-huge-icons",
