@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![stars](https://img.shields.io/github/stars/zero-icons/huge-icons?color=gold&style=flat)
+![stars](https://img.shields.io/github/stars/zerolimitsir/huge-icons?color=gold&style=flat)
 [![License NPM](https://img.shields.io/npm/l/react-huge-icons?color=green&style=flat)](https://www.npmjs.com/package/react-huge-icons)
 [![Version NPM](https://img.shields.io/npm/v/react-huge-icons?label=version&color=blue&style=flat)](https://www.npmjs.com/package/react-huge-icons)
 [![Downloads NPM](https://img.shields.io/npm/dw/react-huge-icons?label=downloads)](https://www.npmjs.com/package/react-huge-icons)
@@ -28,7 +28,7 @@ Table Of Content:
 - [Publisher](#publisher)
 
 ## About the package
-We are here to convert the Huge Icons package into a ReactJs package. [The document of this package](https://zero-icons.ir/package/react-huge-icons)
+We are here to convert the Huge Icons package into a ReactJs package. [The document of this package](https://zerolimitsir.ir/package/react-huge-icons)
 
 PUBLISHED Version 1.0.0
 
@@ -39,7 +39,7 @@ PUBLISHED Version 1.0.0
 
 ### What should we add in the next updates?
 
-To see the next updates, see the _[CHANGELOG](https://github.com/zero-icons/react-huge-icons/blob/main/CHANGELOG.md#unreleased)_ file
+To see the next updates, see the _[CHANGELOG](https://github.com/zerolimitsir/react-huge-icons/blob/main/CHANGELOG.md#unreleased)_ file
 
 ## Installation
 
