@@ -20,7 +20,7 @@ const SvgBatteryCharging = (
         {title ? <title id={titleId}>{title}</title> : null}
         <rect width={12} height={18} x={6} y={4} stroke='currentColor' strokeWidth={1.5} rx={2} />
         <path
-            stroke='#2B3341'
+            stroke='currentColor'
             strokeLinejoin='round'
             d='m9.11 13.161.908-1.108 3.185-3.89c.318-.386.904-.028.751.46l-.878 2.814c-.095.305.118.62.419.62h1.063c.379 0 .582.477.332.782l-4.093 4.997c-.318.388-.904.029-.751-.46l.878-2.813c.095-.305-.118-.62-.419-.62H9.442c-.379 0-.582-.477-.332-.782Z'
         />

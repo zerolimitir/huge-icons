@@ -4,35 +4,35 @@
     "version": "1.3.1",
     "description": "A Huge Icons icon pack made by Zero-Icon team.",
     "keywords": [
-        "react",
-        "react-icons",
-        "icons",
-        "svg",
-        "icon-pack",
-        "react-huge-icons",
-        "Zero-Icon"
+      "react",
+      "react-icons",
+      "icons",
+      "svg",
+      "icon-pack",
+      "react-huge-iconss",
+      "Zero-Icon"
     ],
     "homepage": "https://zero-icons.ir/package/react-huge-icons",
     "repository": {
-        "type": "git",
-        "url": "https://github.com/zero-icons/react-huge-icons.git"
+      "type": "git",
+      "url": "https://github.com/zero-icons/react-huge-icons.git"
     },
     "author": {
-        "name": "Peyman Naderi",
-        "email": "naderidefault@gmail.com",
-        "url": "https://github.com/peymanath"
+      "name": "Peyman Naderi",
+      "email": "naderidefault@gmail.com",
+      "url": "https://github.com/peymanath"
     },
     "contributors": [
-        {
-            "name": "Mohmad Dorqi",
-            "email": "mohmad-dorqi@gmail.com",
-            "url": "https://github.com/mohmad-dorqi"
-        }
+      {
+        "name": "Mohmad Dorqi",
+        "email": "mohmad-dorqi@gmail.com",
+        "url": "https://github.com/mohmad-dorqi"
+      }
     ],
     "publishConfig": {
-        "access": "public"
+      "access": "public"
     },
     "peerDependencies": {
-        "react": ">= 16"
+      "react": ">= 16"
     }
-}
+  }

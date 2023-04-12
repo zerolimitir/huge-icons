@@ -16,7 +16,7 @@ export default [
                 format: 'cjs',
             },
             {
-                file: 'react-huge-icons/bulk/esm/index.js',
+                file: 'react-huge-icons/bulk/index.esm.js',
                 format: 'esm',
             },
         ],
@@ -36,11 +36,6 @@ export default [
         output: [{ file: "react-huge-icons/bulk/index.d.ts", format: "cjs" }],
         plugins: [dts()],
     },
-    {
-        input: "react-huge-icons/bulk/esm/types/bulk/index.d.ts",
-        output: [{ file: "react-huge-icons/bulk/esm/index.d.ts", format: "esm" }],
-        plugins: [dts()],
-    },
 
     /* ============================ OUTLINE ============================= */
     {
@@ -51,7 +46,7 @@ export default [
                 format: 'cjs',
             },
             {
-                file: 'react-huge-icons/outline/esm/index.js',
+                file: 'react-huge-icons/outline/index.esm.js',
                 format: 'esm',
             },
         ],
@@ -71,11 +66,6 @@ export default [
         output: [{ file: "react-huge-icons/outline/index.d.ts", format: "cjs" }],
         plugins: [dts()],
     },
-    {
-        input: "react-huge-icons/outline/esm/types/outline/index.d.ts",
-        output: [{ file: "react-huge-icons/outline/esm/index.d.ts", format: "esm" }],
-        plugins: [dts()],
-    },
 
     /* ============================ SOLID ============================= */
     {
@@ -86,7 +76,7 @@ export default [
                 format: 'cjs',
             },
             {
-                file: 'react-huge-icons/solid/esm/index.js',
+                file: 'react-huge-icons/solid/index.esm.js',
                 format: 'esm',
             },
         ],
@@ -104,11 +94,6 @@ export default [
     {
         input: "react-huge-icons/solid/types/solid/index.d.ts",
         output: [{ file: "react-huge-icons/solid/index.d.ts", format: "cjs" }],
-        plugins: [dts()],
-    },
-    {
-        input: "react-huge-icons/solid/esm/types/solid/index.d.ts",
-        output: [{ file: "react-huge-icons/solid/esm/index.d.ts", format: "esm" }],
         plugins: [dts()],
     },
 ];
