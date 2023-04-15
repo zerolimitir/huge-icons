@@ -1,8 +1,8 @@
 {
     "name": "react-huge-icons",
     "license": "MIT",
-    "version": "1.3.0",
-    "description": "A Huge Icons icon pack made by Zero-Icon team. Developing ...",
+    "version": "0.0.0",
+    "description": "A Huge Icons icon pack made by Zero-Icon team.",
     "keywords": [
         "react",
         "react-icons",
@@ -14,14 +14,23 @@
     ],
     "types": "react-huge-icons/index.d.ts",
     "scripts": {
-        "build": "npm run rimraf && npm run build:outline && npm run build:solid && npm run build:bulk",
-        "rimraf": "rimraf ./react-huge-icons-develop/_svg/bulk/optimized && rimraf ./react-huge-icons-develop/_svg/outline/optimized && rimraf ./react-huge-icons-develop/_svg/solid/optimized && rimraf ./react-huge-icons-develop/components/bulk && rimraf ./react-huge-icons-develop/components/outline && rimraf ./react-huge-icons-develop/components/solid && rimraf ./react-huge-icons/bulk/ && rimraf ./react-huge-icons/outline/ && rimraf ./react-huge-icons/solid/",
-        "build:outline": "svgo -f react-huge-icons-develop/_svg/outline -o react-huge-icons-develop/_svg/outline/optimized && svgr -d react-huge-icons-develop/components/outline react-huge-icons-develop/_svg/outline/optimized",
-        "build:solid": "svgo -f react-huge-icons-develop/_svg/solid -o react-huge-icons-develop/_svg/solid/optimized && svgr -d react-huge-icons-develop/components/solid react-huge-icons-develop/_svg/solid/optimized",
-        "build:bulk": "svgo -f react-huge-icons-develop/_svg/bulk -o react-huge-icons-develop/_svg/bulk/optimized && svgr -d react-huge-icons-develop/components/bulk react-huge-icons-develop/_svg/bulk/optimized",
-        "rollup": "rollup -c && npm run rimraf:types",
-        "rimraf:types": "rimraf ./react-huge-icons/bulk/types && rimraf ./react-huge-icons/outline/types && rimraf ./react-huge-icons/solid/types",
-        "copy:types": "cp -r ./react-huge-icons/bulk/types/bulk ./types-react-huge-icons/bulk && cp -r ./react-huge-icons/outline/types/outline ./types-react-huge-icons/outline && cp -r ./react-huge-icons/solid/types/solid ./types-react-huge-icons/solid"
+        "svgfixer":"rimraf ./scripts/_svg/bulk/op && svgo -f scripts/_svg/bulk -o scripts/_svg/bulk/op && rimraf ./scripts/_svg/outline/op && svgo -f scripts/_svg/outline -o scripts/_svg/outline/op && rimraf ./scripts/_svg/solid/op && svgo -f scripts/_svg/solid -o scripts/_svg/solid/op && node ./scripts/svgfixer.js",
+
+        "build:react": "npm run rimraf:react && npm run build:bulk && npm run build:outline && npm run build:solid",
+
+        "rimraf:react": "rimraf ./react/bulk/ && rimraf ./react/outline/ && rimraf ./react/solid/",
+
+        "build:bulk": "rimraf ./scripts/react/bulk && svgr -d scripts/react/bulk scripts/_svg/bulk/fixed",
+
+        "build:outline": "rimraf ./scripts/react/outline && svgr -d scripts/react/outline scripts/_svg/outline/fixed",
+
+        "build:solid": "rimraf ./scripts/react/solid && svgr -d scripts/react/solid scripts/_svg/solid/fixed",
+
+        "copy:types": "rimraf ./@types/bulk && rimraf ./@types/outline && rimraf ./@types/solid && cp -r ./react/bulk/types/bulk ./@types/bulk && cp -r ./react/outline/types/outline ./@types/outline && cp -r ./react/solid/types/solid ./@types/solid && npm run rimraf:types",
+
+        "rimraf:types": "rimraf ./react/bulk/types && rimraf ./react/outline/types && rimraf ./react/solid/types",
+
+        "rollup": "rollup -c"
     },
     "dependencies": {
         "@babel/runtime": "^7.21.0",
@@ -45,6 +54,7 @@
         "@types/react": "^18.0.32",
         "babel-loader": "^9.1.2",
         "babel-preset-minify": "^0.5.2",
+        "oslllo-svg-fixer": "^2.2.0",
         "prettier": "2.8.7",
         "rimraf": "^4.4.1",
         "rollup": "^2.79.1",

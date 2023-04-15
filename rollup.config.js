@@ -9,14 +9,14 @@ export default [
 
     /* ============================ BULK ============================= */
     {
-        input: './react-huge-icons-develop/components/bulk/index.ts',
+        input: './scripts/react/bulk/index.ts',
         output: [
             {
-                file: 'react-huge-icons/bulk/index.js',
+                file: 'react/bulk/index.js',
                 format: 'cjs',
             },
             {
-                file: 'react-huge-icons/bulk/index.esm.js',
+                file: 'react/bulk/index.esm.js',
                 format: 'esm',
             },
         ],
@@ -32,21 +32,21 @@ export default [
         ],
     },
     {
-        input: "react-huge-icons/bulk/types/bulk/index.d.ts",
-        output: [{ file: "react-huge-icons/bulk/index.d.ts", format: "cjs" }],
+        input: "react/bulk/types/bulk/index.d.ts",
+        output: [{ file: "react/bulk/index.d.ts", format: "cjs" }],
         plugins: [dts()],
     },
 
     /* ============================ OUTLINE ============================= */
     {
-        input: './react-huge-icons-develop/components/outline/index.ts',
+        input: './scripts/react/outline/index.ts',
         output: [
             {
-                file: 'react-huge-icons/outline/index.js',
+                file: 'react/outline/index.js',
                 format: 'cjs',
             },
             {
-                file: 'react-huge-icons/outline/index.esm.js',
+                file: 'react/outline/index.esm.js',
                 format: 'esm',
             },
         ],
@@ -62,21 +62,21 @@ export default [
         ],
     },
     {
-        input: "react-huge-icons/outline/types/outline/index.d.ts",
-        output: [{ file: "react-huge-icons/outline/index.d.ts", format: "cjs" }],
+        input: "react/outline/types/outline/index.d.ts",
+        output: [{ file: "react/outline/index.d.ts", format: "cjs" }],
         plugins: [dts()],
     },
 
     /* ============================ SOLID ============================= */
     {
-        input: './react-huge-icons-develop/components/solid/index.ts',
+        input: './scripts/react/solid/index.ts',
         output: [
             {
-                file: 'react-huge-icons/solid/index.js',
+                file: 'react/solid/index.js',
                 format: 'cjs',
             },
             {
-                file: 'react-huge-icons/solid/index.esm.js',
+                file: 'react/solid/index.esm.js',
                 format: 'esm',
             },
         ],
@@ -92,8 +92,8 @@ export default [
         ],
     },
     {
-        input: "react-huge-icons/solid/types/solid/index.d.ts",
-        output: [{ file: "react-huge-icons/solid/index.d.ts", format: "cjs" }],
+        input: "react/solid/types/solid/index.d.ts",
+        output: [{ file: "react/solid/index.d.ts", format: "cjs" }],
         plugins: [dts()],
     },
 ];

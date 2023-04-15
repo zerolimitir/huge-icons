@@ -1,0 +1,37 @@
+{
+    "name": "vue-huge-icons",
+    "license": "MIT",
+    "version": "1.0.0",
+    "description": "A Huge Icons icon pack made by Zero Limits team.",
+    "keywords": [
+        "icons",
+        "svg",
+        "vue-huge-icons",
+        "icon-pack",
+        "huge-icons",
+        "zerolimit"
+    ],
+    "homepage": "https://huge-icons.zerolimit.ir/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zerolimitir/vue-huge-icons.git"
+    },
+    "author": {
+        "name": "Peyman Naderi",
+        "email": "naderidefault@gmail.com",
+        "url": "https://github.com/peymanath"
+    },
+    "contributors": [
+        {
+            "name": "Mohmad Dorqi",
+            "email": "mohmad-dorqi@gmail.com",
+            "url": "https://github.com/mohmad-dorqi"
+        }
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "react": ">= 16"
+    }
+}

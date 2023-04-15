@@ -2,35 +2,31 @@
 
 <div align="center">
 
-![stars](https://img.shields.io/github/stars/zerolimitsir/react-huge-icons?color=gold&style=flat)
-[![License NPM](https://img.shields.io/npm/l/react-huge-icons?color=green&style=flat)](https://www.npmjs.com/package/react-huge-icons)
-[![Version NPM](https://img.shields.io/npm/v/react-huge-icons?label=version&color=blue&style=flat)](https://www.npmjs.com/package/react-huge-icons)
-[![Downloads NPM](https://img.shields.io/npm/dw/react-huge-icons?label=downloads)](https://www.npmjs.com/package/react-huge-icons)
+![stars](https://img.shields.io/github/stars/zerolimitir/huge-icons?color=gold&style=flat)
 
-![Cover Package huge icons](cover.jpg)
+
+![Cover Package huge icons](https://github.com/zerolimitir/huge-icons/raw/main/cover.jpg)
 
 </div>
 
-Table Of Content:
+## Table Of Content:
 
 - [Huge Icon React Package](#huge-icon-react-package)
+- [Table Of Content:](#table-of-content)
 - [About the package](#about-the-package)
 	- [The figma design](#the-figma-design)
 	- [What should we add in the next updates?](#what-should-we-add-in-the-next-updates)
-- [Installation](#installation)
-- [Usage](#usage)
-	- [All mode:](#all-mode)
-	- [Example:](#example)
-- [Change Size Icon](#change-size-icon)
-- [Change Color Icon](#change-color-icon)
-- [Add CSS style with class](#add-css-style-with-class)
-- [Available props](#available-props)
+- [Installation on React](#installation-on-react)
+- [Usage on React](#usage-on-react)
+	- [All Icons Mode on React](#all-icons-mode-on-react)
+	- [Example on React](#example-on-react)
+- [Change Size Icon on React](#change-size-icon-on-react)
+- [Change Color Icon on React](#change-color-icon-on-react)
+- [Add CSS style with class on React](#add-css-style-with-class-on-react)
 - [Publisher](#publisher)
 
 ## About the package
 We are here to convert the Huge Icons package into a ReactJs package. [The document of this package](https://zerolimits.ir/package/react-huge-icons)
-
-PUBLISHED Version 1.0.0
 
 ### The figma design
 
@@ -39,9 +35,17 @@ PUBLISHED Version 1.0.0
 
 ### What should we add in the next updates?
 
-To see the next updates, see the _[CHANGELOG](https://github.com/zerolimitsir/react-huge-icons/blob/main/CHANGELOG.md#unreleased)_ file
+To see the next updates, see the _[CHANGELOG](https://github.com/zerolimitir/huge-icons/blob/main/CHANGELOG.md#unreleased)_ file
 
-## Installation
+## Installation on React
+
+<br>
+
+[![License NPM](https://img.shields.io/npm/l/react-huge-icons?color=green&style=flat)](https://www.npmjs.com/package/react-huge-icons)
+[![Version NPM](https://img.shields.io/npm/v/react-huge-icons?label=version&color=blue&style=flat)](https://www.npmjs.com/package/react-huge-icons)
+[![Downloads NPM](https://img.shields.io/npm/dw/react-huge-icons?label=downloads)](https://www.npmjs.com/package/react-huge-icons)
+
+<br>
 
 ```shell
 npm i react-huge-icons
@@ -52,17 +56,17 @@ or
 yarn add react-huge-icons
 ```
 
-## Usage
+## Usage on React
 
 import { Archive } from "react-huge-icons/`{the mode package}`";
 
-### All mode:
+### All Icons Mode on React
 
 - `bulk`
 - `outline`
 - `solid`
 
-### Example:
+### Example on React
 
 ```jsx
 import { Archive } from "react-huge-icons/outline";
@@ -78,7 +82,7 @@ function App() {
 export default App;
 ```
 
-## Change Size Icon
+## Change Size Icon on React
 
 ```JSX
 // with TailwindCss
@@ -95,7 +99,7 @@ export default App;
 <Archive style={{fontSize: "10rem"}}/>
 ```
 
-## Change Color Icon
+## Change Color Icon on React
 
 ```JSX
 // Color property CSS => color: #0ea5e9;
@@ -116,7 +120,7 @@ export default App;
 <Archive style={{color: "#0ea5e9"}}/>
 ```
 
-## Add CSS style with class
+## Add CSS style with class on React
 
 ```CSS
 .my-icon-class{
@@ -130,12 +134,6 @@ export default App;
 <Archive className="my-icon-class"/>
 ```
 
-## Available props
-
-| Prop      | Type     | Default |
-| --------- | -------- | ------- |
-| `title`   | `string` | `empty` |
-| `titleId` | `string` | `empty` |
 
 ## Publisher
 
