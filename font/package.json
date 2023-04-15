@@ -20,13 +20,6 @@
         "email": "naderidefault@gmail.com",
         "url": "https://github.com/peymanath"
     },
-    "contributors": [
-        {
-            "name": "Mohmad Dorqi",
-            "email": "mohmad-dorqi@gmail.com",
-            "url": "https://github.com/mohmad-dorqi"
-        }
-    ],
     "publishConfig": {
         "access": "public"
     },
