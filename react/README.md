@@ -12,7 +12,7 @@
 </div>
 
 ## About the package
-We are here to convert the Huge Icons package into a ReactJs package. [The document of this package](https://zerolimits.ir/package/react-huge-icons)
+We are here to convert the Huge Icons package into a ReactJs package. [The document of this package](https://huge-icons.zerolimit.ir/)
 
 
 ## What should we add in the next updates?

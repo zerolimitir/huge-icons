@@ -22,7 +22,7 @@
 
         "build:bulk": "rimraf ./scripts/react/bulk && svgr -d scripts/react/bulk scripts/_svg/bulk/fixed",
 
-        "build:outline": "rimraf ./scripts/react/outline && svgr -d scripts/react/outline scripts/_svg/outline/fixed",
+        "build:outline": "rimraf ./scripts/react/outline && svgr -d scripts/react/outline scripts/_svg/outline/op",
 
         "build:solid": "rimraf ./scripts/react/solid && svgr -d scripts/react/solid scripts/_svg/solid/fixed",
 
@@ -30,7 +30,9 @@
 
         "rimraf:types": "rimraf ./react/bulk/types && rimraf ./react/outline/types && rimraf ./react/solid/types",
 
-        "rollup": "rollup -c"
+        "rollup": "rollup -c",
+
+        "sass":"sass --no-source-map ./scripts/font/huge-icons-main.scss ./font/huge-icons.css && sass --style=compressed --no-source-map ./scripts/font/huge-icons-main.scss ./font/huge-icons.min.css"
     },
     "dependencies": {
         "@babel/runtime": "^7.21.0",
