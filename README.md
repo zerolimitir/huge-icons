@@ -4,7 +4,6 @@
 
 ![stars](https://img.shields.io/github/stars/zerolimitir/huge-icons?color=gold&style=flat)
 
-
 ![Cover Package huge icons](https://github.com/zerolimitir/huge-icons/raw/main/cover.jpg)
 
 </div>
@@ -15,17 +14,24 @@
 - [Table Of Content:](#table-of-content)
 - [About the package](#about-the-package)
 	- [The figma design](#the-figma-design)
-	- [What should we add in the next updates?](#what-should-we-add-in-the-next-updates)
+- [Installation on All website](#installation-on-all-website)
+	- [What should we add in the next updates (Font Package)?](#what-should-we-add-in-the-next-updates-font-package)
+- [Usage on Html](#usage-on-html)
+- [Change Size Icon on Html](#change-size-icon-on-html)
+- [Change Color Icon on Html](#change-color-icon-on-html)
+- [Add CSS style with class on React](#add-css-style-with-class-on-react)
 - [Installation on React](#installation-on-react)
+	- [What should we add in the next updates (React Package)?](#what-should-we-add-in-the-next-updates-react-package)
 - [Usage on React](#usage-on-react)
 	- [All Icons Mode on React](#all-icons-mode-on-react)
 	- [Example on React](#example-on-react)
 - [Change Size Icon on React](#change-size-icon-on-react)
 - [Change Color Icon on React](#change-color-icon-on-react)
-- [Add CSS style with class on React](#add-css-style-with-class-on-react)
+- [Add CSS style with class on React](#add-css-style-with-class-on-react-1)
 - [Publisher](#publisher)
 
 ## About the package
+
 We are here to convert the Huge Icons package into a ReactJs package. [The document of this package](https://zerolimits.ir/package/react-huge-icons)
 
 ### The figma design
@@ -33,9 +39,106 @@ We are here to convert the Huge Icons package into a ReactJs package. [The docum
 -   [The ui8.net website ](https://ui8.net/halal-lab/products/huge-icon-pack-3000-vector-icons-set)
 -   [The figma website ](https://www.figma.com/file/gueKmNsJOUyPlQBwV6CiVL/Huge-Icons)
 
-### What should we add in the next updates?
+## Installation on All website
 
-To see the next updates, see the _[CHANGELOG](https://github.com/zerolimitir/huge-icons/blob/main/CHANGELOG.md#unreleased)_ file
+<br>
+
+[![License NPM](https://img.shields.io/npm/l/huge-icons?color=green&style=flat)](https://www.npmjs.com/package/huge-icons)
+[![Version NPM](https://img.shields.io/npm/v/huge-icons?label=version&color=blue&style=flat)](https://www.npmjs.com/package/huge-icons)
+[![Downloads NPM](https://img.shields.io/npm/dw/huge-icons?label=downloads)](https://www.npmjs.com/package/huge-icons)
+
+<br>
+
+### What should we add in the next updates (Font Package)?
+
+To see the next updates, see the _[CHANGELOG](https://github.com/zerolimitir/huge-icons/blob/main/font/CHANGELOG.md#unreleased)_ file
+
+```shell
+npm i huge-icons
+```
+
+or CDN
+
+```html
+<!-- Add this piece of code to the <head> site -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/huge-icons/huge-icons.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+```
+
+## Usage on Html
+
+Example Solid:
+
+```html
+<i class="solid huge-archive-add"></i>
+```
+
+Example Outline:
+
+```html
+<i class="outline huge-archive-add"></i>
+```
+
+## Change Size Icon on Html
+
+```html
+<!-- with TailwindCss => text-lg, text-[10px]... -->
+<i class="outline huge-archive-add text-lg"></i>
+```
+
+```html
+<!-- with Css Inline=> font-size:15px;-->
+<i class="outline huge-archive-add" style="font-size:20px;"></i>
+```
+
+```CSS
+.my-icon-class{
+	font-size: 10rem;
+}
+```
+
+```JSX
+<i className="solid huge-archive-add my-icon-class"></i>
+```
+
+## Change Color Icon on Html
+
+```html
+<!-- with TailwindCss => text-red-100, text-green-700... -->
+<i class="outline huge-archive-add text-yellow-700"></i>
+```
+
+```html
+<!-- with Css Inline=> color:#0ea5e9; , color:rgb(14, 165, 233);-->
+<i class="outline huge-archive-add" style="color:#fdc435;"></i>
+```
+
+```CSS
+.my-icon-class{
+	color:rgb(14, 165, 233);
+}
+```
+
+```JSX
+<i className="solid huge-archive-add my-icon-class"></i>
+```
+
+## Add CSS style with class on React
+
+```CSS
+.my-icon-class{
+	font-size: 10rem;
+	color: #0ea5e9; /* or rgb(14, 165, 233) */
+}
+.my-icon-class:hover{
+	color: #fdc435; /* or rgb(14, 165, 233) */
+}
+```
+
+```JSX
+<Archive className="my-icon-class"/>
+```
+
+<br>
 
 ## Installation on React
 
@@ -47,9 +150,14 @@ To see the next updates, see the _[CHANGELOG](https://github.com/zerolimitir/hug
 
 <br>
 
+### What should we add in the next updates (React Package)?
+
+To see the next updates, see the _[CHANGELOG](https://github.com/zerolimitir/huge-icons/blob/main/react/CHANGELOG.md#unreleased)_ file
+
 ```shell
 npm i react-huge-icons
 ```
+
 or
 
 ```shell
@@ -62,21 +170,21 @@ import { Archive } from "react-huge-icons/`{the mode package}`";
 
 ### All Icons Mode on React
 
-- `bulk`
-- `outline`
-- `solid`
+-   `bulk`
+-   `outline`
+-   `solid`
 
 ### Example on React
 
 ```jsx
-import { Archive } from "react-huge-icons/outline";
+import { Archive } from 'react-huge-icons/outline';
 
 function App() {
-	return (
-		<div className="App">
-			<Archive />
-		</div>
-	);
+    return (
+        <div className='App'>
+            <Archive />
+        </div>
+    );
 }
 
 export default App;
@@ -133,7 +241,6 @@ export default App;
 ```JSX
 <Archive className="my-icon-class"/>
 ```
-
 
 ## Publisher
 
