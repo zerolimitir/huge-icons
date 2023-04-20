@@ -1,8 +1,12 @@
 ## Huge Icon React Package
 
 <div align="center">
+	<a href="https://www.buymeacoffee.com/peymanath">
+	<img width="200" src="https://github.com/zerolimitir/huge-icons/raw/main/bmc-button.png" />
+	</a>
+</div>
 
-![stars](https://img.shields.io/github/stars/zerolimitir/huge-icons?color=gold&style=flat)
+<div align="center">
 
 ![Cover Package huge icons](https://github.com/zerolimitir/huge-icons/raw/main/cover.jpg)
 
