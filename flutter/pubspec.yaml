@@ -1,0 +1,23 @@
+name: huge_icons
+description: A new Flutter package project for huge icons pack.
+version: 0.0.1
+homepage: https://aminahmadydeveloper.github.io
+
+environment:
+  sdk: ">=2.19.5 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  fonts:
+    - family: HugeIcons
+      fonts:
+        - asset: fonts/HugeIcons.ttf
